@@ -1,0 +1,337 @@
+================================================================================
+XAI ANALYSIS - FILES CREATED
+================================================================================
+
+📁 Main Files:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. xai_analysis.py                    [MAIN SCRIPT]
+   → Core XAI analysis implementation
+   → Performs SHAP and saliency analysis
+   → Compares naive vs trained models
+   → Compares label 0 (non-slang) vs label 1 (slang)
+   → Generates visualizations and statistics
+
+2. run_xai_analysis.sh                [LAUNCHER]
+   → Executable bash script to run analysis
+   → Automatically activates conda environment
+   → Shows progress and completion messages
+   → Usage: ./run_xai_analysis.sh
+
+3. requirements_xai.txt               [DEPENDENCIES]
+   → All required Python packages
+   → Already installed in forensic conda environment
+   → Installation: pip install -r requirements_xai.txt
+
+📚 Documentation:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+4. QUICKSTART_XAI.md                  [QUICK START GUIDE]
+   → Step-by-step instructions to run
+   → 3 different ways to execute
+   → Expected runtime and output
+   → Customization options
+   → Troubleshooting tips
+   → ** START HERE **
+
+5. XAI_README.md                      [DETAILED DOCUMENTATION]
+   → Comprehensive explanation of methods
+   → Output structure and organization
+   → How to interpret results
+   → Configuration options
+   → Performance tuning
+   → Citation information
+
+6. XAI_FILES_SUMMARY.txt              [THIS FILE]
+   → Summary of all created files
+   → Quick reference guide
+
+================================================================================
+INSTALLATION STATUS
+================================================================================
+
+✅ All dependencies installed in conda environment: forensic
+✅ CUDA available for GPU acceleration
+✅ Test data verified: /home/minseok/forensic/test_gpt.json
+✅ Model checkpoints detected:
+   - bert_base
+   - distillbert_base
+   - electra_base
+   - roberta_base
+   - roberta_large
+
+================================================================================
+ANALYSIS FEATURES
+================================================================================
+
+🔍 XAI Methods:
+   • SHAP (Shapley Additive Explanations)
+     - Shows feature importance per token
+     - Quantifies contribution to classification
+     - Computed on 100 sample utterances
+
+   • Saliency Maps (Gradient-based)
+     - Visualizes model attention
+     - Gradient norm of embeddings
+     - Computed on all utterances
+     - Normalized to 0-10 scale
+
+📊 Comparisons:
+   • Naive vs Trained
+     - Base pretrained model vs fine-tuned
+     - Shows impact of training
+     - 2x2 grid plots per model
+
+   • Label 0 vs Label 1
+     - Non-slang vs slang utterances
+     - KDE distribution plots
+     - Statistical comparisons
+
+🎨 Visualizations:
+   • KDE Distribution Plots
+     - Smooth probability density curves
+     - Compare saliency/SHAP distributions
+     - Separate plots for each model type
+
+   • HTML Interactive Visualizations
+     - Token-level saliency heatmaps
+     - Red intensity indicates importance
+     - Per-conversation analysis
+     - Color-coded by label
+
+   • Comparison Plots
+     - Side-by-side naive vs trained
+     - 4 subplots per model:
+       * Saliency (Non-slang)
+       * Saliency (Slang)
+       * SHAP (Non-slang)
+       * SHAP (Slang)
+
+   • Summary Plots
+     - All models overview
+     - Histogram comparisons
+     - Cross-model analysis
+
+📈 Statistics:
+   • Per model, per type (naive/trained):
+     - Sample counts (label 0, label 1)
+     - Mean saliency values
+     - Standard deviation
+     - Mean SHAP values
+     - Saved to JSON for further analysis
+
+================================================================================
+OUTPUT STRUCTURE
+================================================================================
+
+xai_results/
+├── bert_base/
+│   ├── naive/
+│   │   ├── saliency_kde.png              [Label 0 vs 1 saliency]
+│   │   ├── shap_kde.png                  [Label 0 vs 1 SHAP]
+│   │   ├── statistics.json               [Numerical stats]
+│   │   └── conversations/
+│   │       ├── MDRW1900000001.html      [Interactive viz]
+│   │       ├── MDRW1900000002.html
+│   │       └── ... (up to 10 conversations)
+│   └── trained/
+│       └── [same structure]
+│
+├── distillbert_base/  [same structure]
+├── electra_base/      [same structure]
+├── roberta_base/      [same structure]
+├── roberta_large/     [same structure]
+│
+├── bert_base_naive_vs_trained.png         [2x2 comparison]
+├── distillbert_base_naive_vs_trained.png  [2x2 comparison]
+├── electra_base_naive_vs_trained.png      [2x2 comparison]
+├── roberta_base_naive_vs_trained.png      [2x2 comparison]
+├── roberta_large_naive_vs_trained.png     [2x2 comparison]
+└── summary_all_models.png                 [All models overview]
+
+Total files generated: ~60-80 files (depends on conversations analyzed)
+
+================================================================================
+HOW TO RUN
+================================================================================
+
+Option 1 (Easiest):
+   cd /home/minseok/forensic
+   ./run_xai_analysis.sh
+
+Option 2 (Manual):
+   conda activate forensic
+   python xai_analysis.py
+
+Option 3 (Conda run):
+   conda run -n forensic python xai_analysis.py
+
+================================================================================
+EXPECTED RUNTIME
+================================================================================
+
+Per Model (NAIVE + TRAINED):
+   • SHAP computation:        ~10-15 minutes
+   • Saliency computation:    ~15-20 minutes
+   • Visualization generation: ~5 minutes
+   • Total per model:         ~30-60 minutes
+
+All 5 Models:
+   • Estimated total time:    ~2.5-5 hours
+   • GPU recommended for speed
+   • CUDA detected: ✅ Available
+
+Memory Requirements:
+   • GPU RAM: 8-16 GB recommended
+   • System RAM: 16 GB recommended
+   • Disk space: ~500 MB for outputs
+
+================================================================================
+CUSTOMIZATION
+================================================================================
+
+Edit xai_analysis.py to customize:
+
+Line 529: Number of conversations
+   data = load_test_data(DATA_PATH, max_conversations=50)
+
+Line 128: SHAP sample size
+   shap_values = compute_shap(model, tokenizer, all_texts, device, max_samples=100)
+
+Line 48: Output directory
+   OUTPUT_DIR = '/home/minseok/forensic/xai_results'
+
+Line 51: Input data path
+   DATA_PATH = '/home/minseok/forensic/test_gpt.json'
+
+Line 42-53: Model configurations
+   MODEL_CONFIGS = { ... }
+
+================================================================================
+WHAT TO LOOK FOR IN RESULTS
+================================================================================
+
+✓ Good Model Behavior:
+   • Higher saliency on drug terms for slang utterances
+   • Clear separation in KDE plots between label 0 and 1
+   • Trained model shows more focused attention than naive
+   • Drug slang terms highlighted in red in HTML
+   • Higher mean saliency for label 1 vs label 0
+
+✗ Poor Model Behavior:
+   • Random/unfocused saliency distribution
+   • No separation between label 0 and 1
+   • No difference between naive and trained
+   • Non-drug terms getting high attention
+   • Similar mean values for both labels
+
+================================================================================
+KEY METRICS TO REPORT
+================================================================================
+
+From statistics.json:
+
+1. label_1_saliency_mean - label_0_saliency_mean
+   → Larger difference = better discrimination
+
+2. label_1_shap_mean / label_0_shap_mean
+   → Larger ratio = better slang detection
+
+3. Compare naive vs trained for same metrics
+   → Improvement = effective training
+
+4. Visual inspection of HTML files
+   → Verify drug terms are highlighted
+
+================================================================================
+REFERENCE IMPLEMENTATION
+================================================================================
+
+Saliency computation based on:
+   /home/minseok/binshot_attk/saliency4.py
+
+Key differences:
+   • Adapted for sequence classification (not similarity)
+   • Uses transformer embeddings (not custom BERT)
+   • Simplified for binary classification
+   • Added SHAP analysis
+   • Enhanced visualizations
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Issue: Out of GPU memory
+Fix: Reduce max_conversations or max_samples
+
+Issue: Too slow
+Fix: Use fewer models, reduce sample sizes
+
+Issue: Import errors
+Fix: conda activate forensic && pip install -r requirements_xai.txt
+
+Issue: Model checkpoint not found
+Fix: Verify paths in MODEL_CONFIGS match your checkpoints
+
+Issue: No output generated
+Fix: Check xai_results/ directory permissions
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+1. Run the analysis:
+   ./run_xai_analysis.sh
+
+2. While running:
+   • Monitor progress in terminal
+   • Check memory usage (nvidia-smi)
+   • Estimated 2.5-5 hours total
+
+3. After completion:
+   • Open HTML files in browser
+   • Review KDE plots
+   • Compare naive_vs_trained plots
+   • Read statistics.json files
+   • Use for paper/presentation
+
+4. For paper/analysis:
+   • Include KDE plots showing separation
+   • Show example HTML visualizations
+   • Report statistics from JSON
+   • Compare across models
+   • Highlight trained vs naive improvements
+
+================================================================================
+SUPPORT
+================================================================================
+
+Documentation:
+   • QUICKSTART_XAI.md - Quick start guide
+   • XAI_README.md - Detailed documentation
+   • This file - Quick reference
+
+Code:
+   • xai_analysis.py - Well-commented implementation
+   • Inline documentation for all functions
+
+Questions:
+   • Check README files first
+   • Review code comments
+   • Test with small subset (10 conversations, 1 model)
+
+================================================================================
+READY TO RUN!
+================================================================================
+
+All files created ✅
+Dependencies installed ✅
+CUDA available ✅
+Test data verified ✅
+Models detected ✅
+
+Execute: ./run_xai_analysis.sh
+
+Good luck with your research! 🚀
+
+================================================================================

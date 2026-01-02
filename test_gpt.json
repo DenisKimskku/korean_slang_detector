@@ -1,0 +1,903 @@
+[
+    {
+      "id": "MDRW1900000001",
+      "utterance": [
+        {
+          "original_form": "오늘 픽업 시간은 몇 시야?",
+          "label": 1
+        },
+        {
+          "original_form": "나는 아침 일찍 출근했어.",
+          "label": 0
+        },
+        {
+          "original_form": "블루 재고는 이미 확인했어.",
+          "label": 1
+        },
+        {
+          "original_form": "점심은 뭐 먹을지 고민중이야.",
+          "label": 0
+        },
+        {
+          "original_form": "청포도 관련 작업은 끝났어?",
+          "label": 1
+        },
+        {
+          "original_form": "오늘 일정은 순조롭게 진행되고 있어.",
+          "label": 0
+        },
+        {
+          "original_form": "핑크 도착 시간은 오후 8시라고 해.",
+          "label": 1
+        },
+        {
+          "original_form": "회의는 30분 후에 시작돼.",
+          "label": 0
+        },
+        {
+          "original_form": "스위치 작업은 이미 완료했어.",
+          "label": 1
+        },
+        {
+          "original_form": "나중에 다시 연락할게.",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "id": "MDRW1900000002",
+      "utterance": [
+        {
+          "original_form": "오늘 아침 픽업 준비는 끝났어?",
+          "label": 1
+        },
+        {
+          "original_form": "네, 모든 준비는 마쳤어.",
+          "label": 0
+        },
+        {
+          "original_form": "블루랑 관련 서류도 확인했어.",
+          "label": 1
+        },
+        {
+          "original_form": "오후 미팅 준비 중이야.",
+          "label": 0
+        },
+        {
+          "original_form": "청포도 경로는 문제 없을 거야.",
+          "label": 1
+        },
+        {
+          "original_form": "오늘 날씨가 정말 좋네.",
+          "label": 0
+        },
+        {
+          "original_form": "핑크 물량은 이미 확보했어.",
+          "label": 1
+        },
+        {
+          "original_form": "커피 한 잔 할래?",
+          "label": 0
+        },
+        {
+          "original_form": "스위치도 제대로 처리됐어.",
+          "label": 1
+        },
+        {
+          "original_form": "나중에 다시 확인해보자.",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "id": "MDRW1900000003",
+      "utterance": [
+        {
+          "original_form": "픽업 장소는 어디로 정했어?",
+          "label": 1
+        },
+        {
+          "original_form": "별다른 변경 없이 그대로야.",
+          "label": 0
+        },
+        {
+          "original_form": "블루 관련 물품은 모두 준비됐어.",
+          "label": 1
+        },
+        {
+          "original_form": "오늘 업무는 평소와 같아.",
+          "label": 0
+        },
+        {
+          "original_form": "청포도 정보는 최신 버전이야?",
+          "label": 1
+        },
+        {
+          "original_form": "커뮤니케이션은 순조롭게 진행중이야.",
+          "label": 0
+        },
+        {
+          "original_form": "핑크의 상태를 다시 점검해봐.",
+          "label": 1
+        },
+        {
+          "original_form": "점심 식사는 해결했어?",
+          "label": 0
+        },
+        {
+          "original_form": "스위치 세팅도 완료됐어.",
+          "label": 1
+        },
+        {
+          "original_form": "저녁 약속은 아직 없어.",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "id": "MDRW1900000004",
+      "utterance": [
+        {
+          "original_form": "오늘 픽업 관련해서 다시 확인하자.",
+          "label": 1
+        },
+        {
+          "original_form": "네, 별다른 문제는 없어요.",
+          "label": 0
+        },
+        {
+          "original_form": "블루는 이미 검수 완료됐어.",
+          "label": 1
+        },
+        {
+          "original_form": "회의 시간은 오후 2시로 예정되어 있어.",
+          "label": 0
+        },
+        {
+          "original_form": "청포도 경로 점검도 마쳤어.",
+          "label": 1
+        },
+        {
+          "original_form": "서류 작업은 거의 끝났어.",
+          "label": 0
+        },
+        {
+          "original_form": "핑크 도착 시각도 확정됐어.",
+          "label": 1
+        },
+        {
+          "original_form": "오늘은 특별한 일정이 없네.",
+          "label": 0
+        },
+        {
+          "original_form": "스위치 관련 업데이트도 완료했어.",
+          "label": 1
+        },
+        {
+          "original_form": "나중에 다시 얘기하자.",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "id": "MDRW1900000005",
+      "utterance": [
+        {
+          "original_form": "픽업 시간 조정이 필요해 보인다.",
+          "label": 1
+        },
+        {
+          "original_form": "오늘은 일정이 빡빡해서 힘들어.",
+          "label": 0
+        },
+        {
+          "original_form": "블루 물량은 확인 완료!",
+          "label": 1
+        },
+        {
+          "original_form": "커피 한 잔 마시면서 쉴까?",
+          "label": 0
+        },
+        {
+          "original_form": "청포도 정보 다시 점검해줘.",
+          "label": 1
+        },
+        {
+          "original_form": "회의 준비는 문제없이 진행 중이야.",
+          "label": 0
+        },
+        {
+          "original_form": "핑크 수령은 오후 9시로 예정되어 있어.",
+          "label": 1
+        },
+        {
+          "original_form": "오늘은 업무가 비교적 한가해.",
+          "label": 0
+        },
+        {
+          "original_form": "스위치 시스템 업데이트도 완료됐어.",
+          "label": 1
+        },
+        {
+          "original_form": "나중에 결과 공유하자.",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "id": "MDRW1900000006",
+      "utterance": [
+        {
+          "original_form": "픽업 준비는 모두 끝난거야?",
+          "label": 1
+        },
+        {
+          "original_form": "응, 모든 건 정상적이야.",
+          "label": 0
+        },
+        {
+          "original_form": "블루 관련 서류도 정리했어.",
+          "label": 1
+        },
+        {
+          "original_form": "오후에 회의가 예정되어 있네.",
+          "label": 0
+        },
+        {
+          "original_form": "청포도 경로는 다시 한 번 확인해줘.",
+          "label": 1
+        },
+        {
+          "original_form": "점심은 뭐 먹을지 고민 중이야.",
+          "label": 0
+        },
+        {
+          "original_form": "핑크의 상태도 양호해.",
+          "label": 1
+        },
+        {
+          "original_form": "문서는 이메일로 보냈어.",
+          "label": 0
+        },
+        {
+          "original_form": "스위치 업데이트는 이미 완료됐어.",
+          "label": 1
+        },
+        {
+          "original_form": "이제 다음 일정으로 넘어가자.",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "id": "MDRW1900000007",
+      "utterance": [
+        {
+          "original_form": "오늘 픽업 진행 상황 알려줘.",
+          "label": 1
+        },
+        {
+          "original_form": "아무 문제 없이 진행 중이야.",
+          "label": 0
+        },
+        {
+          "original_form": "블루 재고는 이미 확보됐어.",
+          "label": 1
+        },
+        {
+          "original_form": "오전 회의는 잘 마쳤어.",
+          "label": 0
+        },
+        {
+          "original_form": "청포도 관련 경로도 최신이야.",
+          "label": 1
+        },
+        {
+          "original_form": "업무 일정은 평소와 동일해.",
+          "label": 0
+        },
+        {
+          "original_form": "핑크 도착 여부를 재확인해봐.",
+          "label": 1
+        },
+        {
+          "original_form": "오후에는 서류 작업을 할 거야.",
+          "label": 0
+        },
+        {
+          "original_form": "스위치 세팅은 문제없이 완료됐어.",
+          "label": 1
+        },
+        {
+          "original_form": "내일 다시 연락하자.",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "id": "MDRW1900000008",
+      "utterance": [
+        {
+          "original_form": "픽업 관련해서 다시 점검해봐.",
+          "label": 1
+        },
+        {
+          "original_form": "네, 별다른 이슈는 없어.",
+          "label": 0
+        },
+        {
+          "original_form": "블루 확인은 이미 마쳤어.",
+          "label": 1
+        },
+        {
+          "original_form": "오후에 팀 미팅이 있어.",
+          "label": 0
+        },
+        {
+          "original_form": "청포도 루트도 안전한지 봐줘.",
+          "label": 1
+        },
+        {
+          "original_form": "점심 후에는 업무가 바빠.",
+          "label": 0
+        },
+        {
+          "original_form": "핑크는 예정대로 도착할 거야.",
+          "label": 1
+        },
+        {
+          "original_form": "간단히 보고드릴게.",
+          "label": 0
+        },
+        {
+          "original_form": "스위치도 이미 완료된 상태야.",
+          "label": 1
+        },
+        {
+          "original_form": "나중에 추가 업데이트 할게.",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "id": "MDRW1900000009",
+      "utterance": [
+        {
+          "original_form": "픽업 시간 조정할 필요가 있어.",
+          "label": 1
+        },
+        {
+          "original_form": "오늘 일정이 조금 빡빡해.",
+          "label": 0
+        },
+        {
+          "original_form": "블루는 이미 확보된 상태야.",
+          "label": 1
+        },
+        {
+          "original_form": "오후에 커피 한 잔 할까?",
+          "label": 0
+        },
+        {
+          "original_form": "청포도 경로는 재검토가 필요해.",
+          "label": 1
+        },
+        {
+          "original_form": "회의 준비는 다 끝났어.",
+          "label": 0
+        },
+        {
+          "original_form": "핑크 물량도 확인해 봐.",
+          "label": 1
+        },
+        {
+          "original_form": "문서는 이미 정리했어.",
+          "label": 0
+        },
+        {
+          "original_form": "스위치 설정도 다시 점검했어.",
+          "label": 1
+        },
+        {
+          "original_form": "나중에 다시 얘기하자.",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "id": "MDRW1900000010",
+      "utterance": [
+        {
+          "original_form": "픽업 관련 최종 확인 부탁해.",
+          "label": 1
+        },
+        {
+          "original_form": "네, 모든 준비는 완료됐어.",
+          "label": 0
+        },
+        {
+          "original_form": "블루 거래 내역도 점검했어.",
+          "label": 1
+        },
+        {
+          "original_form": "오늘은 평소와 다름없이 바빠.",
+          "label": 0
+        },
+        {
+          "original_form": "청포도 관련 사항도 처리됐어.",
+          "label": 1
+        },
+        {
+          "original_form": "오후 일정은 별 문제 없어.",
+          "label": 0
+        },
+        {
+          "original_form": "핑크 상태도 정상적으로 유지돼.",
+          "label": 1
+        },
+        {
+          "original_form": "회의는 예정대로 진행 중이야.",
+          "label": 0
+        },
+        {
+          "original_form": "스위치 업데이트 완료 보고.",
+          "label": 1
+        },
+        {
+          "original_form": "나중에 다시 연락할게.",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "id": "MDRW1900000011",
+      "utterance": [
+        {
+          "original_form": "픽업 장소 변경 논의할까?",
+          "label": 1
+        },
+        {
+          "original_form": "그건 아직 미정이야.",
+          "label": 0
+        },
+        {
+          "original_form": "블루 관련해서는 수정된 사항 없어.",
+          "label": 1
+        },
+        {
+          "original_form": "오늘은 회의가 많아서 힘들어.",
+          "label": 0
+        },
+        {
+          "original_form": "청포도 경로도 다시 확인했어.",
+          "label": 1
+        },
+        {
+          "original_form": "점심 시간은 따로 정해져 있지 않아.",
+          "label": 0
+        },
+        {
+          "original_form": "핑크 도착 시간은 확실해.",
+          "label": 1
+        },
+        {
+          "original_form": "문서 작업은 순조롭게 진행돼.",
+          "label": 0
+        },
+        {
+          "original_form": "스위치 처리도 문제없어.",
+          "label": 1
+        },
+        {
+          "original_form": "나중에 결과 보고할게.",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "id": "MDRW1900000012",
+      "utterance": [
+        {
+          "original_form": "픽업 작업 전 최종 브리핑 해줘.",
+          "label": 1
+        },
+        {
+          "original_form": "네, 준비는 모두 끝났어.",
+          "label": 0
+        },
+        {
+          "original_form": "블루 관련 내용도 모두 확인했어.",
+          "label": 1
+        },
+        {
+          "original_form": "오늘은 특별한 이슈가 없어.",
+          "label": 0
+        },
+        {
+          "original_form": "청포도 관련 정보도 최신이야.",
+          "label": 1
+        },
+        {
+          "original_form": "오후에는 회의가 예정되어 있어.",
+          "label": 0
+        },
+        {
+          "original_form": "핑크 상태도 문제없이 진행 중이야.",
+          "label": 1
+        },
+        {
+          "original_form": "점심은 같이 먹자.",
+          "label": 0
+        },
+        {
+          "original_form": "스위치 완료 후 보고할게.",
+          "label": 1
+        },
+        {
+          "original_form": "나중에 다시 연락하자.",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "id": "MDRW1900000013",
+      "utterance": [
+        {
+          "original_form": "픽업 시간 변경 가능할까?",
+          "label": 1
+        },
+        {
+          "original_form": "오늘 일정이 꽉 차서 어렵네.",
+          "label": 0
+        },
+        {
+          "original_form": "블루 관련 준비는 모두 끝났어.",
+          "label": 1
+        },
+        {
+          "original_form": "회의는 오후에 잡혀 있어.",
+          "label": 0
+        },
+        {
+          "original_form": "청포도 경로 재확인 부탁해.",
+          "label": 1
+        },
+        {
+          "original_form": "업무가 많아서 바쁘다.",
+          "label": 0
+        },
+        {
+          "original_form": "핑크 물량도 예정대로 들어왔어.",
+          "label": 1
+        },
+        {
+          "original_form": "점심은 따로 해결할게.",
+          "label": 0
+        },
+        {
+          "original_form": "스위치 시스템 점검 완료.",
+          "label": 1
+        },
+        {
+          "original_form": "나중에 다시 이야기하자.",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "id": "MDRW1900000014",
+      "utterance": [
+        {
+          "original_form": "픽업 계획 다시 세워보자.",
+          "label": 1
+        },
+        {
+          "original_form": "오늘은 업무가 평소보다 많아.",
+          "label": 0
+        },
+        {
+          "original_form": "블루 재고 상태는 양호해.",
+          "label": 1
+        },
+        {
+          "original_form": "오후에는 고객 미팅이 있어.",
+          "label": 0
+        },
+        {
+          "original_form": "청포도 관련 업데이트 완료했어.",
+          "label": 1
+        },
+        {
+          "original_form": "점심 후에 다시 연락할게.",
+          "label": 0
+        },
+        {
+          "original_form": "핑크 도착 시간은 확인했어.",
+          "label": 1
+        },
+        {
+          "original_form": "문서는 이미 공유했어.",
+          "label": 0
+        },
+        {
+          "original_form": "스위치 작업도 별 문제 없어.",
+          "label": 1
+        },
+        {
+          "original_form": "내일 다시 만나자.",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "id": "MDRW1900000015",
+      "utterance": [
+        {
+          "original_form": "픽업 일정 확정됐어?",
+          "label": 1
+        },
+        {
+          "original_form": "응, 변경 없이 진행돼.",
+          "label": 0
+        },
+        {
+          "original_form": "블루 관련 정보도 모두 확인했어.",
+          "label": 1
+        },
+        {
+          "original_form": "오늘은 업무가 한가해.",
+          "label": 0
+        },
+        {
+          "original_form": "청포도 경로는 재검토할 필요 없어.",
+          "label": 1
+        },
+        {
+          "original_form": "점심시간은 따로 정해져 있지 않아.",
+          "label": 0
+        },
+        {
+          "original_form": "핑크 도착 예정 시간은 오후 7시야.",
+          "label": 1
+        },
+        {
+          "original_form": "문서 작업은 이미 마쳤어.",
+          "label": 0
+        },
+        {
+          "original_form": "스위치 설정은 문제없이 완료됐어.",
+          "label": 1
+        },
+        {
+          "original_form": "나중에 다시 연락할게.",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "id": "MDRW1900000016",
+      "utterance": [
+        {
+          "original_form": "픽업 관련 사항 다시 점검해줘.",
+          "label": 1
+        },
+        {
+          "original_form": "응, 별 문제는 없어.",
+          "label": 0
+        },
+        {
+          "original_form": "블루 거래 내역은 모두 확인했어.",
+          "label": 1
+        },
+        {
+          "original_form": "오늘은 업무가 잔뜩 밀렸어.",
+          "label": 0
+        },
+        {
+          "original_form": "청포도 경로도 안전한지 봐줘.",
+          "label": 1
+        },
+        {
+          "original_form": "점심은 혼자 해결할게.",
+          "label": 0
+        },
+        {
+          "original_form": "핑크 상태는 양호해.",
+          "label": 1
+        },
+        {
+          "original_form": "오후에는 미팅이 있어.",
+          "label": 0
+        },
+        {
+          "original_form": "스위치 설정도 다시 확인했어.",
+          "label": 1
+        },
+        {
+          "original_form": "나중에 다시 보고할게.",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "id": "MDRW1900000017",
+      "utterance": [
+        {
+          "original_form": "픽업 진행 상황 보고해줘.",
+          "label": 1
+        },
+        {
+          "original_form": "현재까지 문제는 없어.",
+          "label": 0
+        },
+        {
+          "original_form": "블루 관련 건은 전부 처리됐어.",
+          "label": 1
+        },
+        {
+          "original_form": "오전 회의는 순조롭게 끝났어.",
+          "label": 0
+        },
+        {
+          "original_form": "청포도 정보는 최신 버전이야.",
+          "label": 1
+        },
+        {
+          "original_form": "오늘은 별다른 이슈가 없어.",
+          "label": 0
+        },
+        {
+          "original_form": "핑크 물량은 이미 확보했어.",
+          "label": 1
+        },
+        {
+          "original_form": "점심 약속은 없어.",
+          "label": 0
+        },
+        {
+          "original_form": "스위치 시스템 점검 완료.",
+          "label": 1
+        },
+        {
+          "original_form": "나중에 다시 연락할게.",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "id": "MDRW1900000018",
+      "utterance": [
+        {
+          "original_form": "픽업 관련 업데이트 있어?",
+          "label": 1
+        },
+        {
+          "original_form": "응, 모두 정상적으로 진행 중이야.",
+          "label": 0
+        },
+        {
+          "original_form": "블루 상태는 양호해.",
+          "label": 1
+        },
+        {
+          "original_form": "오늘은 업무가 평소보다 많아.",
+          "label": 0
+        },
+        {
+          "original_form": "청포도 관련 건도 마무리됐어.",
+          "label": 1
+        },
+        {
+          "original_form": "오후에 간단한 미팅이 있어.",
+          "label": 0
+        },
+        {
+          "original_form": "핑크 도착은 예정대로야.",
+          "label": 1
+        },
+        {
+          "original_form": "문서는 이미 정리되었어.",
+          "label": 0
+        },
+        {
+          "original_form": "스위치 설정도 최종 점검 완료.",
+          "label": 1
+        },
+        {
+          "original_form": "나중에 결과 공유하자.",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "id": "MDRW1900000019",
+      "utterance": [
+        {
+          "original_form": "픽업 일정 다시 확인해야 해.",
+          "label": 1
+        },
+        {
+          "original_form": "오늘은 별다른 변경 사항이 없어.",
+          "label": 0
+        },
+        {
+          "original_form": "블루 관련 자료는 이미 정리됐어.",
+          "label": 1
+        },
+        {
+          "original_form": "오후에는 업무 보고서 제출 예정이야.",
+          "label": 0
+        },
+        {
+          "original_form": "청포도 경로도 문제 없이 진행돼.",
+          "label": 1
+        },
+        {
+          "original_form": "점심 시간은 따로 정해지지 않았어.",
+          "label": 0
+        },
+        {
+          "original_form": "핑크 수령은 예정대로 진행 중이야.",
+          "label": 1
+        },
+        {
+          "original_form": "커피 한 잔 하면서 쉬자.",
+          "label": 0
+        },
+        {
+          "original_form": "스위치 점검도 완료됐어.",
+          "label": 1
+        },
+        {
+          "original_form": "나중에 다시 회의하자.",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "id": "MDRW1900000020",
+      "utterance": [
+        {
+          "original_form": "픽업 준비 상황 보고해줘.",
+          "label": 1
+        },
+        {
+          "original_form": "응, 모든 건 정상 진행 중이야.",
+          "label": 0
+        },
+        {
+          "original_form": "블루 거래 관련 사항은 완료됐어.",
+          "label": 1
+        },
+        {
+          "original_form": "오늘은 업무가 평소보다 바빠.",
+          "label": 0
+        },
+        {
+          "original_form": "청포도 경로 확인도 마쳤어.",
+          "label": 1
+        },
+        {
+          "original_form": "점심은 같이 할 수 없을 것 같아.",
+          "label": 0
+        },
+        {
+          "original_form": "핑크 상태도 문제없이 진행돼.",
+          "label": 1
+        },
+        {
+          "original_form": "오후에는 보고서 작성 예정이야.",
+          "label": 0
+        },
+        {
+          "original_form": "스위치 업데이트도 완료됐으니 안심해.",
+          "label": 1
+        },
+        {
+          "original_form": "나중에 다시 연락할게.",
+          "label": 0
+        }
+      ]
+    }
+  ]
+  

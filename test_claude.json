@@ -1,0 +1,1773 @@
+[
+ {
+   "id": "MDRW1900000010",
+   "utterance": [
+     {
+       "original_form": "오늘 아침 일찍 출근했어?",
+       "label": 0
+     },
+     {
+       "original_form": "응, 7시에 나왔어.",
+       "label": 0
+     },
+     {
+       "original_form": "교통은 괜찮았어?",
+       "label": 0
+     },
+     {
+       "original_form": "지하철이 좀 막혔지만 괜찮았어.",
+       "label": 0
+     },
+     {
+       "original_form": "오늘 점심은 뭐 먹을까?",
+       "label": 0
+     },
+     {
+       "original_form": "한식당 어때?",
+       "label": 0
+     },
+     {
+       "original_form": "좋아, 그럼 12시에 만나자.",
+       "label": 0
+     },
+     {
+       "original_form": "참, 오늘 아이s 픽업은 몇 시야?",
+       "label": 1
+     },
+     {
+       "original_form": "오후 3시 예정이야.",
+       "label": 0
+     },
+     {
+       "original_form": "장소는 평소와 같은 곳이지?",
+       "label": 0
+     },
+     {
+       "original_form": "응, 변경 없어.",
+       "label": 0
+     },
+     {
+       "original_form": "날씨가 좋네, 산책하기 딱이야.",
+       "label": 0
+     },
+     {
+       "original_form": "그러게, 오늘은 따뜻해.",
+       "label": 0
+     },
+     {
+       "original_form": "얼Em 상태는 괜찮아?",
+       "label": 1
+     },
+     {
+       "original_form": "문제없이 잘 보관되고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "회사 일은 어때?",
+       "label": 0
+     },
+     {
+       "original_form": "요즘 프로젝트가 바빠서 힘들어.",
+       "label": 0
+     },
+     {
+       "original_form": "이번 주말에는 쉬어야겠다.",
+       "label": 0
+     },
+     {
+       "original_form": "작d대기도 함께 준비해줘.",
+       "label": 1
+     },
+     {
+       "original_form": "알겠어, 같이 챙길게.",
+       "label": 0
+     },
+     {
+       "original_form": "그럼 나중에 연락할게.",
+       "label": 0
+     },
+     {
+       "original_form": "응, 조심히 가.",
+       "label": 0
+     }
+   ]
+ },
+ {
+   "id": "MDRW1900000011",
+   "utterance": [
+     {
+       "original_form": "어제 영화 재밌었어?",
+       "label": 0
+     },
+     {
+       "original_form": "응, 액션 장면이 정말 좋았어.",
+       "label": 0
+     },
+     {
+       "original_form": "나도 이번 주말에 볼 예정이야.",
+       "label": 0
+     },
+     {
+       "original_form": "추천해, 꼭 봐야 해.",
+       "label": 0
+     },
+     {
+       "original_form": "카페에서 만날까?",
+       "label": 0
+     },
+     {
+       "original_form": "좋아, 평소 가던 곳으로 가자.",
+       "label": 0
+     },
+     {
+       "original_form": "커피 말고 차도 괜찮아?",
+       "label": 0
+     },
+     {
+       "original_form": "물론이지, 뭐든 좋아.",
+       "label": 0
+     },
+     {
+       "original_form": "캔di 준비는 됐어?",
+       "label": 1
+     },
+     {
+       "original_form": "네, 이미 준비해뒀어.",
+       "label": 0
+     },
+     {
+       "original_form": "요즘 운동은 하고 있어?",
+       "label": 0
+     },
+     {
+       "original_form": "헬스장에 주 3회 정도 가고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "대단하다, 나도 시작해야겠어.",
+       "label": 0
+     },
+     {
+       "original_form": "같이 하면 더 재밌을 거야.",
+       "label": 0
+     },
+     {
+       "original_form": "케이 관련해서 연락 왔나?",
+       "label": 1
+     },
+     {
+       "original_form": "아직은 소식이 없어.",
+       "label": 0
+     },
+     {
+       "original_form": "주말 계획은 뭐야?",
+       "label": 0
+     },
+     {
+       "original_form": "집에서 쉬면서 책 읽을 거야.",
+       "label": 0
+     },
+     {
+       "original_form": "좋은 책 있으면 추천해줘.",
+       "label": 0
+     },
+     {
+       "original_form": "허브 품질도 확인해봐.",
+       "label": 1
+     },
+     {
+       "original_form": "알겠어, 체크해볼게.",
+       "label": 0
+     },
+     {
+       "original_form": "그럼 내일 다시 얘기하자.",
+       "label": 0
+     }
+   ]
+ },
+ {
+   "id": "MDRW1900000012",
+   "utterance": [
+     {
+       "original_form": "오늘 날씨 정말 좋네.",
+       "label": 0
+     },
+     {
+       "original_form": "그러게, 산책하기 딱 좋아.",
+       "label": 0
+     },
+     {
+       "original_form": "점심은 뭐 먹었어?",
+       "label": 0
+     },
+     {
+       "original_form": "김치찌개 먹었어, 맛있었어.",
+       "label": 0
+     },
+     {
+       "original_form": "나는 파스타 먹었는데 별로였어.",
+       "label": 0
+     },
+     {
+       "original_form": "다음엔 다른 메뉴 시켜봐.",
+       "label": 0
+     },
+     {
+       "original_form": "브a액 도착 시간은?",
+       "label": 1
+     },
+     {
+       "original_form": "오후 4시 정도 예상해.",
+       "label": 0
+     },
+     {
+       "original_form": "교통이 복잡할 텐데 괜찮을까?",
+       "label": 0
+     },
+     {
+       "original_form": "우회로로 가면 문제없을 거야.",
+       "label": 0
+     },
+     {
+       "original_form": "회사 회식은 언제야?",
+       "label": 0
+     },
+     {
+       "original_form": "다음 주 금요일 예정이야.",
+       "label": 0
+     },
+     {
+       "original_form": "장소는 정해졌어?",
+       "label": 0
+     },
+     {
+       "original_form": "아직 결정 안 됐어.",
+       "label": 0
+     },
+     {
+       "original_form": "쿠si 물량은 충분해?",
+       "label": 1
+     },
+     {
+       "original_form": "여유분까지 준비했어.",
+       "label": 0
+     },
+     {
+       "original_form": "요즘 드라마 뭐 보고 있어?",
+       "label": 0
+     },
+     {
+       "original_form": "로맨스 드라마 하나 보고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "재밌어?",
+       "label": 0
+     },
+     {
+       "original_form": "응, 스토리가 괜찮아.",
+       "label": 0
+     },
+     {
+       "original_form": "도ri도리 일정도 확인해줘.",
+       "label": 1
+     },
+     {
+       "original_form": "내일 오전에 체크할게.",
+       "label": 0
+     }
+   ]
+ },
+ {
+   "id": "MDRW1900000013",
+   "utterance": [
+     {
+       "original_form": "새로 산 옷 어때?",
+       "label": 0
+     },
+     {
+       "original_form": "색깔이 정말 예뻐.",
+       "label": 0
+     },
+     {
+       "original_form": "어디서 샀어?",
+       "label": 0
+     },
+     {
+       "original_form": "온라인 쇼핑몰에서 주문했어.",
+       "label": 0
+     },
+     {
+       "original_form": "가격도 괜찮았어?",
+       "label": 0
+     },
+     {
+       "original_form": "세일해서 저렴하게 샀어.",
+       "label": 0
+     },
+     {
+       "original_form": "GHb 상황은 어때?",
+       "label": 1
+     },
+     {
+       "original_form": "별다른 문제는 없어.",
+       "label": 0
+     },
+     {
+       "original_form": "카페 메뉴 중에 뭐가 제일 맛있어?",
+       "label": 0
+     },
+     {
+       "original_form": "아메리카노가 가장 무난해.",
+       "label": 0
+     },
+     {
+       "original_form": "디저트도 맛있어?",
+       "label": 0
+     },
+     {
+       "original_form": "케이크가 정말 달콤해.",
+       "label": 0
+     },
+     {
+       "original_form": "다음에 같이 가자.",
+       "label": 0
+     },
+     {
+       "original_form": "좋아, 시간 맞춰보자.",
+       "label": 0
+     },
+     {
+       "original_form": "물ppong 준비는 완료됐어?",
+       "label": 1
+     },
+     {
+       "original_form": "네, 모든 준비가 끝났어.",
+       "label": 0
+     },
+     {
+       "original_form": "주말에 등산 갈 계획이야.",
+       "label": 0
+     },
+     {
+       "original_form": "어느 산으로 갈 거야?",
+       "label": 0
+     },
+     {
+       "original_form": "북한산 생각하고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "날씨 좋으면 정말 예쁠 거야.",
+       "label": 0
+     },
+     {
+       "original_form": "ga루 품질도 재확인해줘.",
+       "label": 1
+     },
+     {
+       "original_form": "알겠어, 다시 점검할게.",
+       "label": 0
+     }
+   ]
+ },
+ {
+   "id": "MDRW1900000014",
+   "utterance": [
+     {
+       "original_form": "어제 늦게 잤어?",
+       "label": 0
+     },
+     {
+       "original_form": "응, 2시까지 영화 봤어.",
+       "label": 0
+     },
+     {
+       "original_form": "피곤하겠다.",
+       "label": 0
+     },
+     {
+       "original_form": "커피 마셔서 버티고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "주말에는 푹 쉬어야겠네.",
+       "label": 0
+     },
+     {
+       "original_form": "그럴 계획이야.",
+       "label": 0
+     },
+     {
+       "original_form": "공po의 백색ga루 확인했어?",
+       "label": 1
+     },
+     {
+       "original_form": "이미 체크 완료했어.",
+       "label": 0
+     },
+     {
+       "original_form": "요즘 책은 뭐 읽고 있어?",
+       "label": 0
+     },
+     {
+       "original_form": "추리소설 하나 읽고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "재밌어?",
+       "label": 0
+     },
+     {
+       "original_form": "반전이 많아서 흥미로워.",
+       "label": 0
+     },
+     {
+       "original_form": "나도 추천 부탁해.",
+       "label": 0
+     },
+     {
+       "original_form": "다 읽으면 빌려줄게.",
+       "label": 0
+     },
+     {
+       "original_form": "똥s술 경로는 안전해?",
+       "label": 1
+     },
+     {
+       "original_form": "평소대로 진행하면 문제없어.",
+       "label": 0
+     },
+     {
+       "original_form": "내일 미팅 준비는 됐어?",
+       "label": 0
+     },
+     {
+       "original_form": "자료 정리는 끝났어.",
+       "label": 0
+     },
+     {
+       "original_form": "발표 연습도 해야겠다.",
+       "label": 0
+     },
+     {
+       "original_form": "연습하면 자신감이 생길 거야.",
+       "label": 0
+     },
+     {
+       "original_form": "메s암페타민 일정도 조율해줘.",
+       "label": 1
+     },
+     {
+       "original_form": "내일 아침에 확인해볼게.",
+       "label": 0
+     }
+   ]
+ },
+ {
+   "id": "MDRW1900000015",
+   "utterance": [
+     {
+       "original_form": "새로운 레스토랑 가봤어?",
+       "label": 0
+     },
+     {
+       "original_form": "어제 갔는데 음식이 정말 맛있었어.",
+       "label": 0
+     },
+     {
+       "original_form": "어떤 메뉴가 제일 좋았어?",
+       "label": 0
+     },
+     {
+       "original_form": "파스타가 일품이었어.",
+       "label": 0
+     },
+     {
+       "original_form": "가격은 어때?",
+       "label": 0
+     },
+     {
+       "original_form": "조금 비싸지만 그만한 값어치는 해.",
+       "label": 0
+     },
+     {
+       "original_form": "히ro뽕 상태는 괜찮아?",
+       "label": 1
+     },
+     {
+       "original_form": "특별한 이상은 없어.",
+       "label": 0
+     },
+     {
+       "original_form": "요즘 운동은 뭐 하고 있어?",
+       "label": 0
+     },
+     {
+       "original_form": "요가 클래스에 다니고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "효과 있어?",
+       "label": 0
+     },
+     {
+       "original_form": "몸이 유연해지고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "나도 한번 해볼까 해.",
+       "label": 0
+     },
+     {
+       "original_form": "같이 하면 더 재밌을 거야.",
+       "label": 0
+     },
+     {
+       "original_form": "크ri스탈 물량 확인해줘.",
+       "label": 1
+     },
+     {
+       "original_form": "요청량은 충분히 준비됐어.",
+       "label": 0
+     },
+     {
+       "original_form": "이번 주말 계획 있어?",
+       "label": 0
+     },
+     {
+       "original_form": "친구들과 바베큐 파티 할 예정이야.",
+       "label": 0
+     },
+     {
+       "original_form": "재밌겠다.",
+       "label": 0
+     },
+     {
+       "original_form": "초k도 함께 준비해야 해?",
+       "label": 1
+     },
+     {
+       "original_form": "그건 나중에 결정하자.",
+       "label": 0
+     },
+     {
+       "original_form": "알겠어, 연락 기다릴게.",
+       "label": 0
+     }
+   ]
+ },
+ {
+   "id": "MDRW1900000016",
+   "utterance": [
+     {
+       "original_form": "오늘 날씨가 흐리네.",
+       "label": 0
+     },
+     {
+       "original_form": "비 올 것 같아 보여.",
+       "label": 0
+     },
+     {
+       "original_form": "우산 챙겨야겠다.",
+       "label": 0
+     },
+     {
+       "original_form": "나도 가방에 넣어뒀어.",
+       "label": 0
+     },
+     {
+       "original_form": "점심 약속은 취소하는 게 좋을까?",
+       "label": 0
+     },
+     {
+       "original_form": "실내 식당으로 바꾸자.",
+       "label": 0
+     },
+     {
+       "original_form": "영Y양제 시간은 언제로 할까?",
+       "label": 1
+     },
+     {
+       "original_form": "오후 2시 어때?",
+       "label": 0
+     },
+     {
+       "original_form": "좋아, 그 시간에 맞춰갈게.",
+       "label": 0
+     },
+     {
+       "original_form": "새로운 프로젝트는 어때?",
+       "label": 0
+     },
+     {
+       "original_form": "아직 계획 단계야.",
+       "label": 0
+     },
+     {
+       "original_form": "언제쯤 시작할 예정이야?",
+       "label": 0
+     },
+     {
+       "original_form": "다음 달 초 정도 생각하고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "기대돼.",
+       "label": 0
+     },
+     {
+       "original_form": "pi로회복제도 필요해?",
+       "label": 1
+     },
+     {
+       "original_form": "상황 봐서 결정하자.",
+       "label": 0
+     },
+     {
+       "original_form": "휴가 계획은 세웠어?",
+       "label": 0
+     },
+     {
+       "original_form": "제주도 여행 생각하고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "좋은 선택이야.",
+       "label": 0
+     },
+     {
+       "original_form": "몰lae뽕 준비도 확인해줘.",
+       "label": 1
+     },
+     {
+       "original_form": "내일까지 완료할게.",
+       "label": 0
+     },
+     {
+       "original_form": "고마워.",
+       "label": 0
+     }
+   ]
+ },
+ {
+   "id": "MDRW1900000017",
+   "utterance": [
+     {
+       "original_form": "주말에 영화 보러 갈까?",
+       "label": 0
+     },
+     {
+       "original_form": "좋아, 뭐 볼 거야?",
+       "label": 0
+     },
+     {
+       "original_form": "액션 영화 어때?",
+       "label": 0
+     },
+     {
+       "original_form": "완전 좋아해.",
+       "label": 0
+     },
+     {
+       "original_form": "토요일 저녁 시간 괜찮아?",
+       "label": 0
+     },
+     {
+       "original_form": "완벽해.",
+       "label": 0
+     },
+     {
+       "original_form": "밀ga루 상황 어때?",
+       "label": 1
+     },
+     {
+       "original_form": "모든 게 순조롭게 진행되고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "요즘 헬스장 잘 다니고 있어?",
+       "label": 0
+     },
+     {
+       "original_form": "주 4회 정도 가고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "꾸준하네.",
+       "label": 0
+     },
+     {
+       "original_form": "목표가 있어서 열심히 하고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "대단해.",
+       "label": 0
+     },
+     {
+       "original_form": "반s사끼 일정도 조정해줘.",
+       "label": 1
+     },
+     {
+       "original_form": "알겠어, 확인해볼게.",
+       "label": 0
+     },
+     {
+       "original_form": "새로운 카페 발견했어.",
+       "label": 0
+     },
+     {
+       "original_form": "어디야?",
+       "label": 0
+     },
+     {
+       "original_form": "집 근처에 생겼어.",
+       "label": 0
+     },
+     {
+       "original_form": "다음에 같이 가보자.",
+       "label": 0
+     },
+     {
+       "original_form": "백s색의 공po도 체크해야 해.",
+       "label": 1
+     },
+     {
+       "original_form": "내일 오전에 확인할게.",
+       "label": 0
+     },
+     {
+       "original_form": "고생 많아.",
+       "label": 0
+     }
+   ]
+ },
+ {
+   "id": "MDRW1900000018",
+   "utterance": [
+     {
+       "original_form": "오늘 업무량이 많네.",
+       "label": 0
+     },
+     {
+       "original_form": "나도 정말 바빠.",
+       "label": 0
+     },
+     {
+       "original_form": "언제쯤 끝날 것 같아?",
+       "label": 0
+     },
+     {
+       "original_form": "저녁 늦게까지 걸릴 것 같아.",
+       "label": 0
+     },
+     {
+       "original_form": "야근 각오해야겠다.",
+       "label": 0
+     },
+     {
+       "original_form": "같이 힘내자.",
+       "label": 0
+     },
+     {
+       "original_form": "백s색의 hwanggeum 확인했어?",
+       "label": 1
+     },
+     {
+       "original_form": "네, 모든 검수가 완료됐어.",
+       "label": 0
+     },
+     {
+       "original_form": "점심은 뭘 시킬까?",
+       "label": 0
+     },
+     {
+       "original_form": "중국집 어때?",
+       "label": 0
+     },
+     {
+       "original_form": "짜장면 땡기네.",
+       "label": 0
+     },
+     {
+       "original_form": "나는 짬뽕으로 할게.",
+       "label": 0
+     },
+     {
+       "original_form": "같이 주문하자.",
+       "label": 0
+     },
+     {
+       "original_form": "악ma의 가루 품질은?",
+       "label": 1
+     },
+     {
+       "original_form": "기준에 맞게 준비됐어.",
+       "label": 0
+     },
+     {
+       "original_form": "회의 자료는 준비됐어?",
+       "label": 0
+     },
+     {
+       "original_form": "거의 다 완성했어.",
+       "label": 0
+     },
+     {
+       "original_form": "발표 순서는?",
+       "label": 0
+     },
+     {
+       "original_form": "내가 먼저 하고 네가 마무리해줘.",
+       "label": 0
+     },
+     {
+       "original_form": "앵s속 경로도 재점검해줘.",
+       "label": 1
+     },
+     {
+       "original_form": "안전성 확인하고 연락드릴게.",
+       "label": 0
+     },
+     {
+       "original_form": "고마워.",
+       "label": 0
+     }
+   ]
+ },
+ {
+   "id": "MDRW1900000019",
+   "utterance": [
+     {
+       "original_form": "새로운 취미 생겼어?",
+       "label": 0
+     },
+     {
+       "original_form": "요즘 사진 찍는 재미에 빠졌어.",
+       "label": 0
+     },
+     {
+       "original_form": "어떤 사진 주로 찍어?",
+       "label": 0
+     },
+     {
+       "original_form": "풍경 사진 위주로 찍고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "카메라는 뭐 써?",
+       "label": 0
+     },
+     {
+       "original_form": "DSLR 하나 장만했어.",
+       "label": 0
+     },
+     {
+       "original_form": "yaba 물량은 어떻게 돼?",
+       "label": 1
+     },
+     {
+       "original_form": "예상보다 많이 확보했어.",
+       "label": 0
+     },
+     {
+       "original_form": "요리는 자주 해?",
+       "label": 0
+     },
+     {
+       "original_form": "주말에만 간단하게 해.",
+       "label": 0
+     },
+     {
+       "original_form": "뭘 잘 만들어?",
+       "label": 0
+     },
+     {
+       "original_form": "파스타 요리를 좋아해.",
+       "label": 0
+     },
+     {
+       "original_form": "다음에 해줘.",
+       "label": 0
+     },
+     {
+       "original_form": "언제든지 놀러 와.",
+       "label": 0
+     },
+     {
+       "original_form": "엔젤s더st 시간도 확정해야 해.",
+       "label": 1
+     },
+     {
+       "original_form": "오후에 시간 맞춰보자.",
+       "label": 0
+     },
+     {
+       "original_form": "친구들과 여행 계획 있어?",
+       "label": 0
+     },
+     {
+       "original_form": "다음 달에 부산 갈 예정이야.",
+       "label": 0
+     },
+     {
+       "original_form": "재밌겠다.",
+       "label": 0
+     },
+     {
+       "original_form": "keo피 준비도 확인해줘.",
+       "label": 1
+     },
+     {
+       "original_form": "품질 체크하고 알려줄게.",
+       "label": 0
+     },
+     {
+       "original_form": "수고해.",
+       "label": 0
+     }
+   ]
+ },
+ {
+   "id": "MDRW1900000020",
+   "utterance": [
+     {
+       "original_form": "오늘 컨디션 어때?",
+       "label": 0
+     },
+     {
+       "original_form": "좀 피곤하지만 괜찮아.",
+       "label": 0
+     },
+     {
+       "original_form": "충분히 쉬었어?",
+       "label": 0
+     },
+     {
+       "original_form": "어제 좀 늦게 잤어.",
+       "label": 0
+     },
+     {
+       "original_form": "오늘은 일찍 자야겠네.",
+       "label": 0
+     },
+     {
+       "original_form": "그럴 계획이야.",
+       "label": 0
+},
+     {
+       "original_form": "코kki리주sa 상태는?",
+       "label": 1
+     },
+     {
+       "original_form": "안정적으로 유지되고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "새로운 드라마 추천해줘.",
+       "label": 0
+     },
+     {
+       "original_form": "최근에 본 것 중에 괜찮은 게 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "장르는 뭐야?",
+       "label": 0
+     },
+     {
+       "original_form": "스릴러 장르야.",
+       "label": 0
+     },
+     {
+       "original_form": "제목 알려줘.",
+       "label": 0
+     },
+     {
+       "original_form": "나중에 메시지로 보낼게.",
+       "label": 0
+     },
+     {
+       "original_form": "tangg 일정도 조율해야 해.",
+       "label": 1
+     },
+     {
+       "original_form": "내일 오전에 정리해서 알려줄게.",
+       "label": 0
+     },
+     {
+       "original_form": "운동은 언제 해?",
+       "label": 0
+     },
+     {
+       "original_form": "저녁에 시간 내서 하고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "어떤 운동 주로 해?",
+       "label": 0
+     },
+     {
+       "original_form": "러닝과 웨이트 트레이닝이야.",
+       "label": 0
+     },
+     {
+       "original_form": "pul 품질도 재확인해줘.",
+       "label": 1
+     },
+     {
+       "original_form": "철저히 점검하고 보고할게.",
+       "label": 0
+     },
+     {
+       "original_form": "고마워, 수고했어.",
+       "label": 0
+     }
+   ]
+ },
+ {
+   "id": "MDRW1900000021",
+   "utterance": [
+     {
+       "original_form": "주말에 뭐 할 예정이야?",
+       "label": 0
+     },
+     {
+       "original_form": "집에서 쉬면서 영화 볼 거야.",
+       "label": 0
+     },
+     {
+       "original_form": "어떤 영화 볼 거야?",
+       "label": 0
+     },
+     {
+       "original_form": "코미디 영화 하나 찜해뒀어.",
+       "label": 0
+     },
+     {
+       "original_form": "재밌을 것 같네.",
+       "label": 0
+     },
+     {
+       "original_form": "같이 볼래?",
+       "label": 0
+     },
+     {
+       "original_form": "hans사끼 준비는 완료됐어?",
+       "label": 1
+     },
+     {
+       "original_form": "모든 준비가 끝났어.",
+       "label": 0
+     },
+     {
+       "original_form": "요즘 독서는 하고 있어?",
+       "label": 0
+     },
+     {
+       "original_form": "자기계발서 하나 읽고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "도움이 돼?",
+       "label": 0
+     },
+     {
+       "original_form": "생각하는 방식이 많이 바뀌었어.",
+       "label": 0
+     },
+     {
+       "original_form": "나도 읽어볼까 해.",
+       "label": 0
+     },
+     {
+       "original_form": "꼭 추천해.",
+       "label": 0
+     },
+     {
+       "original_form": "오늘 ᄋais 픽업 시간은?",
+       "label": 1
+     },
+     {
+       "original_form": "오후 5시로 예정되어 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "새로운 맛집 발견했어?",
+       "label": 0
+     },
+     {
+       "original_form": "일본 요리집 하나 괜찮았어.",
+       "label": 0
+     },
+     {
+       "original_form": "다음에 같이 가보자.",
+       "label": 0
+     },
+     {
+       "original_form": "좋아, 예약해볼게.",
+       "label": 0
+     },
+     {
+       "original_form": "얼Em 상태도 점검해줘.",
+       "label": 1
+     },
+     {
+       "original_form": "내일 아침에 확인하고 연락할게.",
+       "label": 0
+     }
+   ]
+ },
+ {
+   "id": "MDRW1900000022",
+   "utterance": [
+     {
+       "original_form": "오늘 미팅 어땠어?",
+       "label": 0
+     },
+     {
+       "original_form": "생각보다 순조롭게 진행됐어.",
+       "label": 0
+     },
+     {
+       "original_form": "좋은 결과 나왔어?",
+       "label": 0
+     },
+     {
+       "original_form": "다음 단계로 진행하기로 했어.",
+       "label": 0
+     },
+     {
+       "original_form": "축하해.",
+       "label": 0
+     },
+     {
+       "original_form": "고마워.",
+       "label": 0
+     },
+     {
+       "original_form": "차gaun 술 물량은?",
+       "label": 1
+     },
+     {
+       "original_form": "충분한 양을 확보해뒀어.",
+       "label": 0
+     },
+     {
+       "original_form": "요즘 취미 생활 어때?",
+       "label": 0
+     },
+     {
+       "original_form": "기타 배우기 시작했어.",
+       "label": 0
+     },
+     {
+       "original_form": "어려워?",
+       "label": 0
+     },
+     {
+       "original_form": "처음엔 힘들었는데 조금씩 늘고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "대단하다.",
+       "label": 0
+     },
+     {
+       "original_form": "언젠간 연주해줄게.",
+       "label": 0
+     },
+     {
+       "original_form": "작대k기 일정도 확인해야 해.",
+       "label": 1
+     },
+     {
+       "original_form": "스케줄 정리해서 알려줄게.",
+       "label": 0
+     },
+     {
+       "original_form": "건강 관리는 잘 하고 있어?",
+       "label": 0
+     },
+     {
+       "original_form": "비타민도 챙겨 먹고 운동도 하고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "잘하고 있네.",
+       "label": 0
+     },
+     {
+       "original_form": "건강이 최고야.",
+       "label": 0
+     },
+     {
+       "original_form": "캔d이 품질도 재점검해줘.",
+       "label": 1
+     },
+     {
+       "original_form": "꼼꼼히 확인하고 보고할게.",
+       "label": 0
+     }
+   ]
+ },
+ {
+   "id": "MDRW1900000023",
+   "utterance": [
+     {
+       "original_form": "새로운 프로젝트 시작했어?",
+       "label": 0
+     },
+     {
+       "original_form": "응, 이번 주부터 본격적으로 시작했어.",
+       "label": 0
+     },
+     {
+       "original_form": "어떤 내용이야?",
+       "label": 0
+     },
+     {
+       "original_form": "앱 개발 프로젝트야.",
+       "label": 0
+     },
+     {
+       "original_form": "흥미롭네.",
+       "label": 0
+     },
+     {
+       "original_form": "완성되면 보여줄게.",
+       "label": 0
+     },
+     {
+       "original_form": "케이i 관련 연락 왔어?",
+       "label": 1
+     },
+     {
+       "original_form": "아직 소식은 없어.",
+       "label": 0
+     },
+     {
+       "original_form": "요즘 잠은 잘 자고 있어?",
+       "label": 0
+     },
+     {
+       "original_form": "규칙적으로 자려고 노력하고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "좋은 습관이야.",
+       "label": 0
+     },
+     {
+       "original_form": "건강이 우선이니까.",
+       "label": 0
+     },
+     {
+       "original_form": "스트레스 관리는 어떻게 해?",
+       "label": 0
+     },
+     {
+       "original_form": "음악 듣거나 산책하면서 풀어.",
+       "label": 0
+     },
+     {
+       "original_form": "떨l 현상은 괜찮아?",
+       "label": 1
+     },
+     {
+       "original_form": "별다른 문제는 없어 보여.",
+       "label": 0
+     },
+     {
+       "original_form": "새로운 카페 가봤어?",
+       "label": 0
+     },
+     {
+       "original_form": "어제 근처에 생긴 곳 가봤는데 괜찮았어.",
+       "label": 0
+     },
+     {
+       "original_form": "분위기는 어땠어?",
+       "label": 0
+     },
+     {
+       "original_form": "조용하고 아늑했어.",
+       "label": 0
+     },
+     {
+       "original_form": "go기 품질도 확인해야 해.",
+       "label": 1
+     },
+     {
+       "original_form": "철저히 검토하고 알려줄게.",
+       "label": 0
+     }
+   ]
+ },
+ {
+   "id": "MDRW1900000024",
+   "utterance": [
+     {
+       "original_form": "오늘 날씨 정말 춥네.",
+       "label": 0
+     },
+     {
+       "original_form": "겨울이 본격적으로 시작된 것 같아.",
+       "label": 0
+     },
+     {
+       "original_form": "패딩 꺼내야겠다.",
+       "label": 0
+     },
+     {
+       "original_form": "나도 어제 꺼냈어.",
+       "label": 0
+     },
+     {
+       "original_form": "감기 조심해야겠어.",
+       "label": 0
+     },
+     {
+       "original_form": "비타민C 챙겨 먹자.",
+       "label": 0
+     },
+     {
+       "original_form": "허e브 상태는 어때?",
+       "label": 1
+     },
+     {
+       "original_form": "안정적으로 관리되고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "연말 계획 세웠어?",
+       "label": 0
+     },
+     {
+       "original_form": "가족들과 여행 갈 생각이야.",
+       "label": 0
+     },
+     {
+       "original_form": "어디로 갈 거야?",
+       "label": 0
+     },
+     {
+       "original_form": "따뜻한 남쪽 지방으로.",
+       "label": 0
+     },
+     {
+       "original_form": "좋겠다.",
+       "label": 0
+     },
+     {
+       "original_form": "사진 많이 찍어올게.",
+       "label": 0
+     },
+     {
+       "original_form": "브액k 일정도 조정해줘.",
+       "label": 1
+     },
+     {
+       "original_form": "다음 주까지 정리해서 보고할게.",
+       "label": 0
+     },
+     {
+       "original_form": "새해 목표는 정했어?",
+       "label": 0
+     },
+     {
+       "original_form": "건강 관리와 새로운 취미 만들기야.",
+       "label": 0
+     },
+     {
+       "original_form": "좋은 목표네.",
+       "label": 0
+     },
+     {
+       "original_form": "실천하는 게 중요하지.",
+       "label": 0
+     },
+     {
+       "original_form": "쿠S시 물량도 점검해줘.",
+       "label": 1
+     },
+     {
+       "original_form": "정확히 확인하고 연락드릴게.",
+       "label": 0
+     }
+   ]
+ },
+ {
+   "id": "MDRW1900000025",
+   "utterance": [
+     {
+       "original_form": "어제 회사 회식 어땠어?",
+       "label": 0
+     },
+     {
+       "original_form": "분위기 좋았고 음식도 맛있었어.",
+       "label": 0
+     },
+     {
+       "original_form": "늦게까지 했어?",
+       "label": 0
+     },
+     {
+       "original_form": "10시쯤 끝났어.",
+       "label": 0
+     },
+     {
+       "original_form": "적당했네.",
+       "label": 0
+     },
+     {
+       "original_form": "동료들과 더 친해진 것 같아.",
+       "label": 0
+     },
+     {
+       "original_form": "도ri도ri 작업은 언제부터?",
+       "label": 1
+     },
+     {
+       "original_form": "내일 오전부터 시작할 예정이야.",
+       "label": 0
+     },
+     {
+       "original_form": "요즘 스마트폰 게임 해?",
+       "label": 0
+     },
+     {
+       "original_form": "퍼즐 게임 하나 하고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "중독성 있어?",
+       "label": 0
+     },
+     {
+       "original_form": "시간 가는 줄 모르고 해.",
+       "label": 0
+     },
+     {
+       "original_form": "나도 한번 해볼까.",
+       "label": 0
+     },
+     {
+       "original_form": "추천해줄게.",
+       "label": 0
+     },
+     {
+       "original_form": "GhB 준비 상황은?",
+       "label": 1
+     },
+     {
+       "original_form": "예정대로 모든 준비가 완료됐어.",
+       "label": 0
+     },
+     {
+       "original_form": "주말에 쇼핑 갈 계획 있어?",
+       "label": 0
+     },
+     {
+       "original_form": "옷 몇 벌 사러 갈 생각이야.",
+       "label": 0
+     },
+     {
+       "original_form": "어떤 스타일로?",
+       "label": 0
+     },
+     {
+       "original_form": "캐주얼한 옷 위주로.",
+       "label": 0
+     },
+     {
+       "original_form": "물p뽕 품질도 재확인해야 해.",
+       "label": 1
+     },
+     {
+       "original_form": "샘플 테스트하고 결과 알려줄게.",
+       "label": 0
+     }
+   ]
+ },
+ {
+   "id": "MDRW1900000026",
+   "utterance": [
+     {
+       "original_form": "새로운 취미 시작했다면서?",
+       "label": 0
+     },
+     {
+       "original_form": "응, 도자기 만들기 배우기 시작했어.",
+       "label": 0
+     },
+     {
+       "original_form": "어려워?",
+       "label": 0
+     },
+     {
+       "original_form": "생각보다 섬세한 작업이야.",
+       "label": 0
+     },
+     {
+       "original_form": "재밌어 보인다.",
+       "label": 0
+     },
+     {
+       "original_form": "집중력도 기를 수 있어서 좋아.",
+       "label": 0
+     },
+     {
+       "original_form": "물hiro뽕 상황 어때?",
+       "label": 1
+     },
+     {
+       "original_form": "모든 절차가 순조롭게 진행 중이야.",
+       "label": 0
+     },
+     {
+       "original_form": "요즘 잠 잘 와?",
+       "label": 0
+     },
+     {
+       "original_form": "규칙적인 생활 덕분에 괜찮아.",
+       "label": 0
+     },
+     {
+       "original_form": "일찍 자고 일찍 일어나는구나.",
+       "label": 0
+     },
+     {
+       "original_form": "아침 시간을 활용하니까 좋더라.",
+       "label": 0
+     },
+     {
+       "original_form": "나도 생활 패턴 바꿔봐야겠어.",
+       "label": 0
+     },
+     {
+       "original_form": "처음엔 힘들지만 적응되면 좋아.",
+       "label": 0
+     },
+     {
+       "original_form": "garu 품질 검사는?",
+       "label": 1
+     },
+     {
+       "original_form": "기준치를 모두 만족했어.",
+       "label": 0
+     },
+     {
+       "original_form": "새로운 음식점 추천해줘.",
+       "label": 0
+     },
+     {
+       "original_form": "이탈리안 레스토랑 하나 알고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "파스타 맛있어?",
+       "label": 0
+     },
+     {
+       "original_form": "정말 진짜 맛있어.",
+       "label": 0
+     },
+     {
+       "original_form": "공po의 백색garu도 확인해줘.",
+       "label": 1
+     },
+     {
+       "original_form": "세심하게 점검하고 보고할게.",
+       "label": 0
+     }
+   ]
+ },
+ {
+   "id": "MDRW1900000027",
+   "utterance": [
+     {
+       "original_form": "주말 날씨 좋다던데?",
+       "label": 0
+     },
+     {
+       "original_form": "응, 맑고 따뜻할 예정이야.",
+       "label": 0
+     },
+     {
+       "original_form": "어디 나들이 갈까?",
+       "label": 0
+     },
+     {
+       "original_form": "공원에서 피크닉 어때?",
+       "label": 0
+     },
+     {
+       "original_form": "좋은 생각이야.",
+       "label": 0
+     },
+     {
+       "original_form": "준비물은 내가 챙길게.",
+       "label": 0
+     },
+     {
+       "original_form": "덱s트로m 메토로판 일정은?",
+       "label": 1
+     },
+     {
+       "original_form": "다음 주 화요일로 예정되어 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "요즘 영어 공부 하고 있어?",
+       "label": 0
+     },
+     {
+       "original_form": "온라인 강의 하나 듣고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "도움이 돼?",
+       "label": 0
+     },
+     {
+       "original_form": "실력이 조금씩 늘고 있는 것 같아.",
+       "label": 0
+     },
+     {
+       "original_form": "꾸준히 하는 게 중요하지.",
+       "label": 0
+     },
+     {
+       "original_form": "매일 30분씩 하고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "ddong 처리 방법은?",
+       "label": 1
+     },
+     {
+       "original_form": "기존 방식대로 진행할 예정이야.",
+       "label": 0
+     },
+     {
+       "original_form": "새로운 드라마 시작했어?",
+       "label": 0
+     },
+     {
+       "original_form": "로맨스 코미디 하나 보기 시작했어.",
+       "label": 0
+     },
+     {
+       "original_form": "재밌어?",
+       "label": 0
+     },
+     {
+       "original_form": "배우들 연기가 정말 좋아.",
+       "label": 0
+     },
+     {
+       "original_form": "똥sul 경로도 재점검해줘.",
+       "label": 1
+     },
+     {
+       "original_form": "안전성 위주로 확인해볼게.",
+       "label": 0
+     }
+   ]
+ },
+ {
+   "id": "MDRW1900000028",
+   "utterance": [
+     {
+       "original_form": "오늘 컨디션 괜찮아?",
+       "label": 0
+     },
+     {
+       "original_form": "어제 푹 쉬어서 좋아.",
+       "label": 0
+     },
+     {
+       "original_form": "뭐 하면서 쉬었어?",
+       "label": 0
+     },
+     {
+       "original_form": "음악 들으면서 독서했어.",
+       "label": 0
+     },
+     {
+       "original_form": "어떤 책 읽었어?",
+       "label": 0
+     },
+     {
+       "original_form": "심리학 관련 책이었어.",
+       "label": 0
+     },
+     {
+       "original_form": "메s암페tamin 상태는?",
+       "label": 1
+     },
+     {
+       "original_form": "모든 지표가 정상 범위야.",
+       "label": 0
+     },
+     {
+       "original_form": "요즘 요리 연습 해?",
+       "label": 0
+     },
+     {
+       "original_form": "주말마다 새로운 메뉴 도전하고 있어.",
+       "label": 0
+     },
+     {
+       "original_form": "이번엔 뭐 만들었어?",
+       "label": 0
+     },
+     {
+       "original_form": "타이 요리 해봤는데 생각보다 맛있었어.",
+       "label": 0
+     },
+     {
+       "original_form": "도전 정신이 대단해.",
+       "label": 0
+     },
+     {
+       "original_form": "실패해도 재밌어.",
+       "label": 0
+     },
+     {
+       "original_form": "히roppong 물량은?",
+       "label": 1
+     },
+     {
+       "original_form": "요청량보다 여유 있게 준비했어.",
+       "label": 0
+     },
+     {
+       "original_form": "건강검진은 언제 받을 예정이야?",
+       "label": 0
+     },
+     {
+       "original_form": "다음 달 초에 예약해뒀어.",
+       "label": 0
+     },
+     {
+       "original_form": "정기적으로 받는 게 좋지.",
+       "label": 0
+     },
+     {
+       "original_form": "건강이 최우선이니까.",
+       "label": 0
+     },
+     {
+       "original_form": "ppongg 품질도 체크해야 해.",
+       "label": 1
+     },
+     {
+       "original_form": "샘플 분석하고 결과 알려줄게.",
+       "label": 0
+     }
+   ]
+ }
+]

@@ -1,0 +1,4502 @@
+[
+  {
+    "id": "MDRW1900000100",
+    "utterance": [
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 ᄋais 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "아이s 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "아이s 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000101",
+    "utterance": [
+      {
+        "original_form": "오늘 얼Em 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "얼E음 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 얼E음 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000102",
+    "utterance": [
+      {
+        "original_form": "오늘 차gaun 술 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "차가un 술 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "차gaun 술 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000103",
+    "utterance": [
+      {
+        "original_form": "오늘 작d대기 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "작d대기 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "작d대기 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000104",
+    "utterance": [
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "캔d이 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "캔d이 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "캔d이 괜찮은 거 있어?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000105",
+    "utterance": [
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 케이 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "케i 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "케이 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000106",
+    "utterance": [
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "ttᄋㄹ 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "ttᄋㄹ 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 ttᄋㄹ 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000107",
+    "utterance": [
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 고g기 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "고기 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "고기 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000108",
+    "utterance": [
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "허브i 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "허b브 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 허브i 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000109",
+    "utterance": [
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "브a액 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 브a엑 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 브a엑 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000110",
+    "utterance": [
+      {
+        "original_form": "쿠시i 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "쿠시i 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 쿠시i 조금만 챙겨줄 수 있어?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000111",
+    "utterance": [
+      {
+        "original_form": "도리d도리 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "도리d도리 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 도리d도리 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000112",
+    "utterance": [
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "GHB 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "GHB 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "GHB 괜찮은 거 있어?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000113",
+    "utterance": [
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "물뽕 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "물뽕 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "물뽕g 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000114",
+    "utterance": [
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "물히ro뽕 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "물hi로ppong 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 물hi로ppong 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000115",
+    "utterance": [
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 가루 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "가루 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "가루 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000116",
+    "utterance": [
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "공po의 백색가루 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "공po의 백색ga루 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "공po의 백색ga루 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000117",
+    "utterance": [
+      {
+        "original_form": "덱s트로 메토로판 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "덱s트로 메토로판 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "덱스트로m 메토로판 재고 얼마나 남았어?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000118",
+    "utterance": [
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "똥g 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "똥g 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "똥g 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000119",
+    "utterance": [
+      {
+        "original_form": "똥s술 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "똥s술 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 똥s술 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000120",
+    "utterance": [
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "메s암페tamin 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "메s암페ta민 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "메s암페tamin 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000121",
+    "utterance": [
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 히ro뽕g 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "히ro뽕g 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "히ro뽕g 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000122",
+    "utterance": [
+      {
+        "original_form": "ppong 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 ppong 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "ppong 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000123",
+    "utterance": [
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "크리스탈 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 크ris탈 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "크ris탈 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000124",
+    "utterance": [
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "초크 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "초크 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 초크 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000125",
+    "utterance": [
+      {
+        "original_form": "yeong양제 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "영양제 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 영양제 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000126",
+    "utterance": [
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "pi로회복제 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "pi로회복제 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "피ro회복제 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000127",
+    "utterance": [
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "몰laeppong 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "몰lae뽕 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "몰laeppong 괜찮은 거 있어?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000128",
+    "utterance": [
+      {
+        "original_form": "miL가루 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "miL가루 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 miL가루 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000129",
+    "utterance": [
+      {
+        "original_form": "오늘 반사끼 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "반사끼 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "반사끼 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000130",
+    "utterance": [
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "baek색의 공po 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "baeks색의 공po 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "baek색의 공po 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000131",
+    "utterance": [
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "백색의 황금 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 백색의 황금 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "백s색의 황금 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000132",
+    "utterance": [
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 akma의 가루 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 악ma의 ga루 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "akma의 가루 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000133",
+    "utterance": [
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "aengso속 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "aengs속 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "aengso속 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000134",
+    "utterance": [
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "yaBa 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 yaBa 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "yaBa 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000135",
+    "utterance": [
+      {
+        "original_form": "엔젤더st 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "엔젤더st 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 엔젤더스트 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000136",
+    "utterance": [
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "커p이 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "keo피 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 커p이 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000137",
+    "utterance": [
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "코끼리주사 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "코kki리주sa 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "코끼리주사 재고 얼마나 남았어?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000138",
+    "utterance": [
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 탕 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "tangg 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "탕 재고 얼마나 남았어?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000139",
+    "utterance": [
+      {
+        "original_form": "pul 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 pul 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "풀 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000140",
+    "utterance": [
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 한사끼 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "한사끼 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "han사끼 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000141",
+    "utterance": [
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "ᄋais 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "아이s 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "ᄋais 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000142",
+    "utterance": [
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "얼음 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "얼E음 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "얼E음 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000143",
+    "utterance": [
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "차ga운 술 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "차ga운 술 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "차ga운 술 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000144",
+    "utterance": [
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "작대기k 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "작대기 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 작대기k 조금만 챙겨줄 수 있어?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000145",
+    "utterance": [
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 캔di 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "캔디i 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 캔di 조금만 챙겨줄 수 있어?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000146",
+    "utterance": [
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "케이i 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "케이i 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "케이i 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000147",
+    "utterance": [
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "떨 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "떨 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "떨 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000148",
+    "utterance": [
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "go기 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "go기 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 go기 조금만 챙겨줄 수 있어?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000149",
+    "utterance": [
+      {
+        "original_form": "오늘 허브i 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "허be 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "허be 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000150",
+    "utterance": [
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "브액i 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "브액i 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "브액 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000151",
+    "utterance": [
+      {
+        "original_form": "쿠시i 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "쿠시i 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "쿠시i 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000152",
+    "utterance": [
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "도ri도리 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "도리도리 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "도리도리 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000153",
+    "utterance": [
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "GHB 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "GHb 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "GHB 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000154",
+    "utterance": [
+      {
+        "original_form": "물뽕 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 물뽕 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "물ppong 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000155",
+    "utterance": [
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "물hiro뽕 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "물hiro뽕 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "물히ro뽕 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000156",
+    "utterance": [
+      {
+        "original_form": "오늘 garu 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "ga루 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "garu 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000157",
+    "utterance": [
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 공po의 백색garu 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "공po의 백색ga루 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 공po의 백색ga루 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000158",
+    "utterance": [
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "덱스트로m 메토로판 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "덱s트로 메토로판 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "덱스트로m 메토로판 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000159",
+    "utterance": [
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "똥g 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "똥g 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "똥 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000160",
+    "utterance": [
+      {
+        "original_form": "똥술l 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "똥술 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "똥술l 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000161",
+    "utterance": [
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "메s암페타민 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "메s암페타민 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "메s암페타민 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000162",
+    "utterance": [
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "히로뽕 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 히ro뽕 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "히ro뽕 재고 얼마나 남았어?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000163",
+    "utterance": [
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "ppong 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "ppong 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "ppong 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000164",
+    "utterance": [
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "크ri스탈 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "크ri스탈 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 크리스t알 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000165",
+    "utterance": [
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "초k 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "초k 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "초k 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000166",
+    "utterance": [
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "영양je 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "영양je 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "영Y양je 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000167",
+    "utterance": [
+      {
+        "original_form": "피로회복제 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "피로회복제 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "피로회복제 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000168",
+    "utterance": [
+      {
+        "original_form": "몰래ppong 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "몰래ppong 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 몰래ppong 조금만 챙겨줄 수 있어?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000169",
+    "utterance": [
+      {
+        "original_form": "밀가루 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 밀가루 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 miL가루 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000170",
+    "utterance": [
+      {
+        "original_form": "반s사끼 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "반sa끼 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 반sa끼 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000171",
+    "utterance": [
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "baek색의 공po 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "baek색의 공po 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "baek색의 공po 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000172",
+    "utterance": [
+      {
+        "original_form": "baek색의 hwanggeum 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "baek색의 hwanggeum 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "baek색의 hwanggeum 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000173",
+    "utterance": [
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "악ma의 garu 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "악ma의 garu 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "악ma의 ga루 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000174",
+    "utterance": [
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "앵속 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "aengs속 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "aengs속 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000175",
+    "utterance": [
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "yaBa 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 야바 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "야바 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000176",
+    "utterance": [
+      {
+        "original_form": "엔젤s더st 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "엔젤s더st 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "엔젤s더st 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000177",
+    "utterance": [
+      {
+        "original_form": "커피 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "커피 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "커피 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000178",
+    "utterance": [
+      {
+        "original_form": "코kki리jusa 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "코kki리jusa 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 코끼리주사 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000179",
+    "utterance": [
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "tangg 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "taNg 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "taNg 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000180",
+    "utterance": [
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 pUl 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "pUl 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "pUl 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000181",
+    "utterance": [
+      {
+        "original_form": "오늘 한사끼 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "한s사끼 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "한사끼 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000182",
+    "utterance": [
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "a이ᄋs 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "a이ᄋs 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "a이ᄋs 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000183",
+    "utterance": [
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "얼m음 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "얼m음 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "얼m음 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000184",
+    "utterance": [
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "차가un 술 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "차가un 술 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "차gaun 술 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000185",
+    "utterance": [
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "작dae기 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "작dae기 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 작대기k 조금만 챙겨줄 수 있어?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000186",
+    "utterance": [
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "캔d이 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "캔d이 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "캔d이 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000187",
+    "utterance": [
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "케이i 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "케이i 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "케이 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000188",
+    "utterance": [
+      {
+        "original_form": "떨l 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 떨l 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "떨l 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000189",
+    "utterance": [
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "고기i 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "고기i 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "고기i 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000190",
+    "utterance": [
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 허be 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 허브i 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "허브i 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000191",
+    "utterance": [
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "브a엑 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "브액 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "브액 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000192",
+    "utterance": [
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "쿠시 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "쿠시 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "쿠S시 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000193",
+    "utterance": [
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "도r도리 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "도r도리 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "도r도리 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000194",
+    "utterance": [
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "GhB 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "GhB 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "GHB 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000195",
+    "utterance": [
+      {
+        "original_form": "물ppong 찾는 친구가 있는데 어떻게 할까?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "물뽕g 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "물ppong 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000196",
+    "utterance": [
+      {
+        "original_form": "물hiro뽕 재고 얼마나 남았어?",
+        "label": 1
+      },
+      {
+        "original_form": "물히ro뽕 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "퇴근했어?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 물hiro뽕 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 회의 어땠어?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000197",
+    "utterance": [
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "가ru 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 가ru 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "가ru 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000198",
+    "utterance": [
+      {
+        "original_form": "오늘 날씨 진짜 이상하지 않아?",
+        "label": 0
+      },
+      {
+        "original_form": "헬스장은 계속 다니고 있어?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 공po의 백색ga루 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "요즘 일은 좀 어때?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "집 쪽에는 별일 없지?",
+        "label": 0
+      },
+      {
+        "original_form": "공포i의 백색가루 지난번이랑 같은 거로 준비 가능해?",
+        "label": 1
+      },
+      {
+        "original_form": "공po의 백색ga루 괜찮은 거 있어?",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "id": "MDRW1900000199",
+    "utterance": [
+      {
+        "original_form": "덱s트로 메토로판 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "오늘 덱s트로 메토로판 조금만 챙겨줄 수 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "덱s트로 메토로판 괜찮은 거 있어?",
+        "label": 1
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "오늘 뭐 해?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "요즘 잠은 잘 자?",
+        "label": 0
+      },
+      {
+        "original_form": "점심은 먹었어?",
+        "label": 0
+      },
+      {
+        "original_form": "주말에 뭐 할 거야?",
+        "label": 0
+      }
+    ]
+  }
+]

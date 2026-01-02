@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>약물 대화 탐지 시스템 Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --danger-color: #dc2626;
+            --success-color: #16a34a;
+            --warning-color: #f59e0b;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f3f4f6;
+            --text-primary: #111827;
+            --text-secondary: #6b7280;
+            --border-color: #e5e7eb;
+            --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--bg-secondary);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: var(--bg-primary);
+            padding: 20px 0;
+            box-shadow: var(--shadow);
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            text-align: center;
+            color: var(--primary-color);
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: var(--text-secondary);
+            margin-top: 5px;
+            font-size: 0.9rem;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .tab {
+            padding: 12px 24px;
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .tab:hover {
+            color: var(--primary-color);
+        }
+
+        .tab.active {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .tab.active::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--primary-color);
+        }
+
+        .content {
+            display: none;
+        }
+
+        .content.active {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Chat Mode Styles */
+        .chat-container {
+            background: var(--bg-primary);
+            border-radius: 12px;
+            box-shadow: var(--shadow-lg);
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .message {
+            max-width: 70%;
+            padding: 12px 16px;
+            border-radius: 12px;
+            word-wrap: break-word;
+            position: relative;
+            animation: messageSlide 0.3s ease;
+        }
+
+        @keyframes messageSlide {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .message.speaker-0 {
+            align-self: flex-end;
+            background: var(--primary-color);
+            color: white;
+            border-bottom-right-radius: 4px;
+        }
+
+        .message.speaker-1 {
+            align-self: flex-start;
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            border-bottom-left-radius: 4px;
+        }
+
+        .message-label {
+            font-size: 0.75rem;
+            margin-bottom: 4px;
+            opacity: 0.8;
+        }
+
+        .message.anomaly {
+            border: 2px solid var(--danger-color);
+            animation: pulse 2s infinite;
+        }
+
+        .message.anomaly.speaker-0 {
+            background: rgba(220, 38, 38, 0.1);
+            color: var(--text-primary);
+            border-color: var(--danger-color);
+        }
+
+        .message.anomaly.speaker-1 {
+            background: rgba(220, 38, 38, 0.1);
+            color: var(--text-primary);
+            border-color: var(--danger-color);
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(220, 38, 38, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(220, 38, 38, 0); }
+        }
+
+        .anomaly-indicator {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            background: var(--danger-color);
+            color: white;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+
+        .message-index {
+            position: absolute;
+            top: -8px;
+            left: -8px;
+            background: var(--text-secondary);
+            color: white;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+            font-weight: bold;
+        }
+
+        .chat-input-container {
+            padding: 20px;
+            border-top: 1px solid var(--border-color);
+            background: var(--bg-secondary);
+            border-radius: 0 0 12px 12px;
+        }
+
+        .speaker-selector {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .speaker-btn {
+            flex: 1;
+            padding: 8px;
+            border: 2px solid var(--border-color);
+            background: var(--bg-primary);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .speaker-btn.active {
+            background: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+
+        .chat-input-wrapper {
+            display: flex;
+            gap: 10px;
+        }
+
+        .chat-input {
+            flex: 1;
+            padding: 12px 16px;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .chat-input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        .send-btn {
+            padding: 12px 24px;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .send-btn:hover {
+            background: var(--secondary-color);
+            transform: translateY(-1px);
+        }
+
+        .send-btn:disabled {
+            background: var(--text-secondary);
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .analysis-info {
+            margin-top: 10px;
+            padding: 10px;
+            background: rgba(37, 99, 235, 0.1);
+            border-radius: 8px;
+            font-size: 0.85rem;
+            color: var(--primary-color);
+            display: none;
+        }
+
+        .analysis-info.show {
+            display: block;
+        }
+
+        .analysis-btn {
+            width: 100%;
+            padding: 12px;
+            background: var(--success-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            margin-top: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .analysis-btn:hover {
+            background: #15803d;
+            transform: translateY(-1px);
+        }
+
+        /* File Upload Styles */
+        .upload-container {
+            background: var(--bg-primary);
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .upload-area {
+            border: 3px dashed var(--border-color);
+            border-radius: 12px;
+            padding: 60px 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .upload-area:hover {
+            border-color: var(--primary-color);
+            background: rgba(37, 99, 235, 0.05);
+        }
+
+        .upload-area.dragover {
+            border-color: var(--primary-color);
+            background: rgba(37, 99, 235, 0.1);
+            transform: scale(1.02);
+        }
+
+        .upload-icon {
+            font-size: 4rem;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+        }
+
+        .upload-text {
+            color: var(--text-primary);
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .upload-subtext {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        #fileInput {
+            display: none;
+        }
+
+        .file-info {
+            margin-top: 30px;
+            padding: 20px;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            display: none;
+        }
+
+        .file-info.show {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .file-name {
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 10px;
+        }
+
+        .process-btn {
+            padding: 12px 32px;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .process-btn:hover {
+            background: var(--secondary-color);
+            transform: translateY(-1px);
+        }
+
+        /* Results Section */
+        .results-container {
+            margin-top: 30px;
+            background: var(--bg-primary);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: var(--shadow-lg);
+            display: none;
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+
+        .results-container.show {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .results-header {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: var(--bg-secondary);
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+
+        .conversation-result {
+            margin-bottom: 20px;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            border-left: 4px solid var(--border-color);
+            transition: all 0.3s ease;
+            overflow: hidden;
+        }
+
+        .conversation-result.anomaly {
+            border-left-color: var(--danger-color);
+        }
+
+        .conversation-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .conversation-header:hover {
+            background: rgba(0, 0, 0, 0.02);
+        }
+
+        .conversation-id {
+            font-weight: 600;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .expand-icon {
+            transition: transform 0.3s ease;
+        }
+
+        .conversation-result.expanded .expand-icon {
+            transform: rotate(90deg);
+        }
+
+        .status-badge {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .status-badge.normal {
+            background: rgba(22, 163, 74, 0.1);
+            color: var(--success-color);
+        }
+
+        .status-badge.anomaly {
+            background: rgba(220, 38, 38, 0.1);
+            color: var(--danger-color);
+        }
+
+        .conversation-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .conversation-result.expanded .conversation-content {
+            max-height: 1000px;
+        }
+
+        .utterance-list {
+            padding: 0 20px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .utterance {
+            padding: 12px 15px;
+            background: var(--bg-primary);
+            border-radius: 8px;
+            font-size: 0.9rem;
+            position: relative;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .utterance-index {
+            background: var(--text-secondary);
+            color: white;
+            border-radius: 50%;
+            min-width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: bold;
+        }
+
+        .utterance-content {
+            flex: 1;
+        }
+
+        .utterance.anomaly {
+            background: rgba(220, 38, 38, 0.05);
+            border: 1px solid rgba(220, 38, 38, 0.2);
+        }
+
+        .utterance.anomaly .utterance-index {
+            background: var(--danger-color);
+        }
+
+        .utterance-speaker {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-bottom: 4px;
+        }
+
+        .anomaly-info {
+            background: rgba(220, 38, 38, 0.1);
+            padding: 10px 15px;
+            margin: 0 20px 20px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            color: var(--danger-color);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Loading States */
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid var(--border-color);
+            border-radius: 50%;
+            border-top-color: var(--primary-color);
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            display: none;
+        }
+
+        .loading-overlay.show {
+            display: flex;
+        }
+
+        .loading-modal {
+            background: var(--bg-primary);
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .loading-modal .loading {
+            width: 50px;
+            height: 50px;
+            margin: 0 auto 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .chat-container {
+                height: 500px;
+            }
+
+            .message {
+                max-width: 85%;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .conversation-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+        }
+
+        /* Error States */
+        .error-message {
+            background: rgba(220, 38, 38, 0.1);
+            border: 1px solid rgba(220, 38, 38, 0.2);
+            color: var(--danger-color);
+            padding: 12px 16px;
+            border-radius: 8px;
+            margin-top: 10px;
+            display: none;
+        }
+
+        .error-message.show {
+            display: block;
+            animation: shake 0.5s ease;
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            75% { transform: translateX(5px); }
+        }
+
+        /* Tooltips */
+        .tooltip {
+            position: relative;
+            display: inline-block;
+        }
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 200px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 8px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -100px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            font-size: 0.85rem;
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .tooltip .tooltiptext::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #333 transparent transparent transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-modal">
+            <div class="loading"></div>
+            <p>모델이 분석 중입니다...</p>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="container">
+            <h1>🔍 약물 대화 탐지 시스템</h1>
+            <p class="subtitle">KLUE/RoBERTa 기반 이상 대화 패턴 감지 AI</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="tabs">
+            <button class="tab active" onclick="switchTab('chat')">💬 실시간 대화 분석</button>
+            <button class="tab" onclick="switchTab('file')">📁 파일 업로드 분석</button>
+        </div>
+
+        <!-- Chat Mode -->
+        <div id="chatContent" class="content active">
+            <div class="chat-container">
+                <div class="chat-messages" id="chatMessages">
+                    <div style="text-align: center; color: var(--text-secondary); padding: 40px;">
+                        <p style="font-size: 1.2rem; margin-bottom: 10px;">대화를 시작해보세요!</p>
+                        <p style="font-size: 0.9rem;">화자를 선택하고 메시지를 입력하면 실시간으로 분석됩니다.</p>
+                    </div>
+                </div>
+                <div class="chat-input-container">
+                    <div class="speaker-selector">
+                        <button class="speaker-btn active" id="speaker0" onclick="selectSpeaker(0)">화자 1</button>
+                        <button class="speaker-btn" id="speaker1" onclick="selectSpeaker(1)">화자 2</button>
+                    </div>
+                    <div class="chat-input-wrapper">
+                        <input type="text" class="chat-input" id="chatInput" placeholder="메시지를 입력하세요..." onkeypress="handleKeyPress(event)">
+                        <button class="send-btn" onclick="sendMessage()">전송</button>
+                    </div>
+                    <div class="analysis-info" id="analysisInfo"></div>
+                    <button class="analysis-btn" onclick="analyzeConversation()">
+                        <span class="tooltip">
+                            전체 대화 분석하기
+                            <span class="tooltiptext">현재까지의 대화를 슬라이딩 윈도우 방식으로 분석합니다</span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="error-message" id="chatError"></div>
+        </div>
+
+        <!-- File Upload Mode -->
+        <div id="fileContent" class="content">
+            <div class="upload-container">
+                <div class="upload-area" id="uploadArea" onclick="document.getElementById('fileInput').click()">
+                    <div class="upload-icon">📄</div>
+                    <div class="upload-text">JSON 파일을 드래그하거나 클릭하여 업로드</div>
+                    <div class="upload-subtext">NIKL 메신저 데이터셋 형식의 JSON 파일만 지원됩니다</div>
+                    <input type="file" id="fileInput" accept=".json" onchange="handleFileSelect(event)">
+                </div>
+                <div class="file-info" id="fileInfo">
+                    <div class="file-name" id="fileName"></div>
+                    <button class="process-btn" onclick="processFile()">파일 분석 시작</button>
+                </div>
+                <div class="error-message" id="fileError"></div>
+            </div>
+
+            <div class="results-container" id="resultsContainer">
+                <div class="results-header">
+                    <span>📊</span>
+                    <span>분석 결과</span>
+                </div>
+                <div class="stats-grid" id="statsGrid"></div>
+                <div id="conversationResults"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        let currentSpeaker = 0;
+        let chatHistory = [];
+        let uploadedFile = null;
+        let anomalyDetections = new Map(); // Store anomaly detections by message index
+        const API_URL = 'http://localhost:8000'; // Backend URL
+        const WINDOW_SIZE = 10;
+        const STRIDE = 1;
+
+        // Tab switching
+        function switchTab(tab) {
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.content').forEach(c => c.classList.remove('active'));
+            
+            if (tab === 'chat') {
+                document.querySelectorAll('.tab')[0].classList.add('active');
+                document.getElementById('chatContent').classList.add('active');
+            } else {
+                document.querySelectorAll('.tab')[1].classList.add('active');
+                document.getElementById('fileContent').classList.add('active');
+            }
+        }
+
+        // Chat Mode Functions
+        function selectSpeaker(speaker) {
+            currentSpeaker = speaker;
+            document.getElementById('speaker0').classList.toggle('active', speaker === 0);
+            document.getElementById('speaker1').classList.toggle('active', speaker === 1);
+        }
+
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById('chatInput');
+            const message = input.value.trim();
+            
+            if (!message) return;
+            
+            // Add message to chat
+            const messageData = {
+                text: message,
+                speaker: currentSpeaker,
+                timestamp: new Date().toISOString()
+            };
+            
+            chatHistory.push(messageData);
+            const messageIndex = chatHistory.length - 1;
+            displayMessage(messageData, false, messageIndex);
+            
+            // Clear input
+            input.value = '';
+            
+            // Analyze with sliding window even for single message
+            await analyzeWithSlidingWindow();
+        }
+
+        function displayMessage(messageData, isAnomaly = false, index = null) {
+            const messagesContainer = document.getElementById('chatMessages');
+            
+            // Clear initial message if this is the first message
+            if (chatHistory.length === 1 && messagesContainer.querySelector('div[style*="text-align: center"]')) {
+                messagesContainer.innerHTML = '';
+            }
+            
+            const messageEl = document.createElement('div');
+            messageEl.className = `message speaker-${messageData.speaker} ${isAnomaly ? 'anomaly' : ''}`;
+            messageEl.dataset.index = index;
+            
+            const labelEl = document.createElement('div');
+            labelEl.className = 'message-label';
+            labelEl.textContent = `화자 ${messageData.speaker + 1}`;
+            
+            const textEl = document.createElement('div');
+            textEl.textContent = messageData.text;
+            
+            messageEl.appendChild(labelEl);
+            messageEl.appendChild(textEl);
+            
+            if (index !== null) {
+                const indexEl = document.createElement('div');
+                indexEl.className = 'message-index';
+                indexEl.textContent = index + 1;
+                messageEl.appendChild(indexEl);
+            }
+            
+            if (isAnomaly) {
+                const indicator = document.createElement('div');
+                indicator.className = 'anomaly-indicator';
+                indicator.textContent = '!';
+                messageEl.appendChild(indicator);
+            }
+            
+            messagesContainer.appendChild(messageEl);
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+
+        async function analyzeWithSlidingWindow() {
+            // Create messages for analysis
+            const messages = chatHistory.map((m, idx) => ({
+                original_form: m.text,
+                speaker: m.speaker,
+                index: idx
+            }));
+            
+            // Pad with empty messages if needed
+            const paddedMessages = [...messages];
+            while (paddedMessages.length < WINDOW_SIZE) {
+                paddedMessages.push({
+                    original_form: "",
+                    speaker: paddedMessages.length % 2,
+                    index: -1
+                });
+            }
+            
+            // Analyze the last window
+            const startIdx = Math.max(0, paddedMessages.length - WINDOW_SIZE);
+            const window = paddedMessages.slice(startIdx, startIdx + WINDOW_SIZE);
+            
+            try {
+                const response = await fetch(`${API_URL}/api/analyze-window`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        messages: window.map(m => ({
+                            original_form: m.original_form,
+                            speaker: m.speaker
+                        })),
+                        message_indices: window.map(m => m.index)
+                    })
+                });
+                
+                if (!response.ok) throw new Error('분석 실패');
+                
+                const result = await response.json();
+                
+                // Update UI based on results
+                if (result.anomaly_indices && result.anomaly_indices.length > 0) {
+                    updateAnomalyDetections(result.anomaly_indices, result.confidence);
+                }
+                
+                // Update analysis info
+                updateAnalysisInfo(result);
+                
+            } catch (error) {
+                console.error('Analysis error:', error);
+            }
+        }
+
+        function updateAnomalyDetections(anomalyIndices, confidence) {
+            // Store anomaly detections
+            anomalyIndices.forEach(idx => {
+                if (idx >= 0) {
+                    anomalyDetections.set(idx, confidence);
+                }
+            });
+            
+            // Update all messages UI
+            const messages = document.querySelectorAll('.message');
+            messages.forEach(msg => {
+                const index = parseInt(msg.dataset.index);
+                if (anomalyDetections.has(index)) {
+                    msg.classList.add('anomaly');
+                    
+                    // Add anomaly indicator if not exists
+                    if (!msg.querySelector('.anomaly-indicator')) {
+                        const indicator = document.createElement('div');
+                        indicator.className = 'anomaly-indicator';
+                        indicator.textContent = '!';
+                        msg.appendChild(indicator);
+                    }
+                }
+            });
+        }
+
+        function updateAnalysisInfo(result) {
+            const infoEl = document.getElementById('analysisInfo');
+            if (result.prediction === 1) {
+                infoEl.innerHTML = `⚠️ 약물 관련 키워드 탐지됨 (신뢰도: ${(result.confidence * 100).toFixed(1)}%)`;
+                infoEl.classList.add('show');
+            } else if (chatHistory.length > 0) {
+                infoEl.innerHTML = `✓ 현재까지 정상 대화 (분석 중...)`;
+                infoEl.classList.add('show');
+            }
+        }
+
+        async function analyzeConversation() {
+            if (chatHistory.length === 0) {
+                showError('chatError', '분석할 대화가 없습니다.');
+                return;
+            }
+            
+            showLoading(true);
+            
+            try {
+                const response = await fetch(`${API_URL}/api/analyze-conversation`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        conversation: {
+                            id: generateConversationId(),
+                            utterances: chatHistory.map(m => ({
+                                original_form: m.text,
+                                speaker: m.speaker
+                            }))
+                        }
+                    })
+                });
+                
+                if (!response.ok) throw new Error('분석 실패');
+                
+                const result = await response.json();
+                
+                // Clear previous detections
+                anomalyDetections.clear();
+                
+                // Update detections from all windows
+                if (result.detailed_results) {
+                    result.detailed_results.forEach(window => {
+                        if (window.prediction === 1 && window.message_indices) {
+                            window.message_indices.forEach(idx => {
+                                if (idx >= 0) {
+                                    anomalyDetections.set(idx, window.confidence);
+                                }
+                            });
+                        }
+                    });
+                }
+                
+                // Update all messages
+                const messages = document.querySelectorAll('.message');
+                messages.forEach(msg => {
+                    const index = parseInt(msg.dataset.index);
+                    if (anomalyDetections.has(index)) {
+                        msg.classList.add('anomaly');
+                    } else {
+                        msg.classList.remove('anomaly');
+                    }
+                });
+                
+                // Show summary
+                showAnalysisSummary(result);
+                
+            } catch (error) {
+                showError('chatError', '분석 중 오류가 발생했습니다.');
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        function showAnalysisSummary(result) {
+            const anomalyMessages = Array.from(anomalyDetections.keys()).sort((a, b) => a - b);
+            const summary = `분석 완료!\n\n` +
+                `전체 윈도우: ${result.total_windows}개\n` +
+                `이상 탐지 윈도우: ${result.anomaly_windows}개\n` +
+                `정상 윈도우: ${result.normal_windows}개\n\n` +
+                `약물 키워드 탐지 메시지: ${anomalyMessages.length > 0 ? 
+                    anomalyMessages.map(idx => `${idx + 1}번`).join(', ') : 
+                    '없음'}`;
+            
+            alert(summary);
+        }
+
+        // File Upload Functions
+        function handleFileSelect(event) {
+            const file = event.target.files[0];
+            if (file && file.type === 'application/json') {
+                uploadedFile = file;
+                document.getElementById('fileName').textContent = `파일명: ${file.name}`;
+                document.getElementById('fileInfo').classList.add('show');
+                hideError('fileError');
+            } else {
+                showError('fileError', 'JSON 파일만 업로드 가능합니다.');
+            }
+        }
+
+        // Drag and drop
+        const uploadArea = document.getElementById('uploadArea');
+        
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+        
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover');
+        });
+        
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            
+            const file = e.dataTransfer.files[0];
+            if (file && file.type === 'application/json') {
+                uploadedFile = file;
+                document.getElementById('fileName').textContent = `파일명: ${file.name}`;
+                document.getElementById('fileInfo').classList.add('show');
+                hideError('fileError');
+            } else {
+                showError('fileError', 'JSON 파일만 업로드 가능합니다.');
+            }
+        });
+
+        async function processFile() {
+            if (!uploadedFile) return;
+            
+            showLoading(true);
+            
+            try {
+                const formData = new FormData();
+                formData.append('file', uploadedFile);
+                
+                const response = await fetch(`${API_URL}/api/analyze-file`, {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                if (!response.ok) throw new Error('파일 처리 실패');
+                
+                const result = await response.json();
+                displayResults(result);
+            } catch (error) {
+                showError('fileError', '파일 처리 중 오류가 발생했습니다.');
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        function displayResults(data) {
+            const container = document.getElementById('resultsContainer');
+            const statsGrid = document.getElementById('statsGrid');
+            const conversationResults = document.getElementById('conversationResults');
+            
+            // Clear previous results
+            statsGrid.innerHTML = '';
+            conversationResults.innerHTML = '';
+            
+            // Display statistics
+            const stats = [
+                { label: '전체 대화', value: data.total_conversations },
+                { label: '이상 대화', value: data.anomaly_conversations },
+                { label: '정상 대화', value: data.normal_conversations },
+                { label: '탐지율', value: `${data.detection_rate.toFixed(1)}%` }
+            ];
+            
+            stats.forEach(stat => {
+                const card = document.createElement('div');
+                card.className = 'stat-card';
+                card.innerHTML = `
+                    <div class="stat-value">${stat.value}</div>
+                    <div class="stat-label">${stat.label}</div>
+                `;
+                statsGrid.appendChild(card);
+            });
+            
+            // Display conversation results
+            data.conversations.forEach((conv, idx) => {
+                const hasAnomaly = conv.has_anomaly;
+                const anomalyCount = conv.anomaly_indices ? conv.anomaly_indices.length : 0;
+                
+                const convEl = document.createElement('div');
+                convEl.className = `conversation-result ${hasAnomaly ? 'anomaly' : ''}`;
+                convEl.dataset.index = idx;
+                
+                convEl.innerHTML = `
+                    <div class="conversation-header" onclick="toggleConversation(${idx})">
+                        <div class="conversation-id">
+                            <span class="expand-icon">▶</span>
+                            대화 ID: ${conv.id}
+                            <span style="color: var(--text-secondary); font-size: 0.85rem;">
+                                (${conv.utterances.length}개 메시지)
+                            </span>
+                        </div>
+                        <div class="status-badge ${hasAnomaly ? 'anomaly' : 'normal'}">
+                            ${hasAnomaly ? `이상 탐지 (${anomalyCount}개)` : '정상'}
+                        </div>
+                    </div>
+                    <div class="conversation-content">
+                        ${hasAnomaly ? `
+                            <div class="anomaly-info">
+                                <span>⚠️</span>
+                                <span>약물 관련 키워드가 ${anomalyCount}개 메시지에서 탐지되었습니다.</span>
+                            </div>
+                        ` : ''}
+                        <div class="utterance-list">
+                            ${conv.utterances.map((utt, uttIdx) => {
+                                const isAnomaly = conv.anomaly_indices && conv.anomaly_indices.includes(uttIdx);
+                                return `
+                                    <div class="utterance ${isAnomaly ? 'anomaly' : ''}">
+                                        <div class="utterance-index">${uttIdx + 1}</div>
+                                        <div class="utterance-content">
+                                            <div class="utterance-speaker">화자 ${(uttIdx % 2) + 1}</div>
+                                            <div>${utt.original_form}</div>
+                                        </div>
+                                    </div>
+                                `;
+                            }).join('')}
+                        </div>
+                    </div>
+                `;
+                
+                conversationResults.appendChild(convEl);
+            });
+            
+            container.classList.add('show');
+        }
+
+        function toggleConversation(index) {
+            const conv = document.querySelector(`.conversation-result[data-index="${index}"]`);
+            if (conv) {
+                conv.classList.toggle('expanded');
+            }
+        }
+
+        // Utility Functions
+        function generateConversationId() {
+            const timestamp = Date.now();
+            const random = Math.random().toString(36).substring(2, 15);
+            return `CHAT_${timestamp}_${random}`;
+        }
+
+        function showLoading(show) {
+            document.getElementById('loadingOverlay').classList.toggle('show', show);
+        }
+
+        function showError(elementId, message) {
+            const errorEl = document.getElementById(elementId);
+            errorEl.textContent = message;
+            errorEl.classList.add('show');
+            setTimeout(() => errorEl.classList.remove('show'), 5000);
+        }
+
+        function hideError(elementId) {
+            document.getElementById(elementId).classList.remove('show');
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            // Focus on chat input
+            document.getElementById('chatInput').focus();
+        });
+    </script>
+</body>
+</html>
