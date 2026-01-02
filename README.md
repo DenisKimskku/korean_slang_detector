@@ -102,6 +102,18 @@ The project supports and evaluates several Korean language models:
 *   `monologg/distilkobert`
 *   `monologg/koelectra-base-v3-discriminator`
 
-## License
 
-[Insert License Here]
+## Citation
+
+
+```bibtex
+@article{ART003276332},
+author={ 김민석 and 구형준 },
+title={ LLM 기반 마약 은어 키워드 탐지 시스템 },
+journal={ 정보보호학회논문지 },
+issn={1598-3986},
+year={2025},
+number={6},
+pages={1611 - 1625},
+```
+
