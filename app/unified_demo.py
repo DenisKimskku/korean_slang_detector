@@ -190,21 +190,21 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 MODEL_CONFIGS = {
     "roberta-base": {
         "model_name": "klue/roberta-base",
-        "model_path": "roberta_base/models_pure_lm/best_model.pt",
+        "model_path": "../models/roberta_base/models_pure_lm/best_model.pt",
         "window_size": 10,
         "stride": 5,
         "has_msg_token": True  # Set based on actual training
     },
     "roberta-large": {
         "model_name": "klue/roberta-large",
-        "model_path": "roberta_large/models_pure_lm/best_model.pt", 
+        "model_path": "../models/roberta_large/models_pure_lm/best_model.pt", 
         "window_size": 10,
         "stride": 5,
         "has_msg_token": True  # Set based on actual training
     },
     "bert-base": {
         "model_name": "klue/bert-base",
-        "model_path": "bert_base/models_pure_lm_attn/best_model.pt",
+        "model_path": "../models/bert_base/models_pure_lm_attn/best_model.pt",
         "window_size": 10,
         "stride": 5,
         "has_msg_token": True   # Only this one uses MSG tokens
